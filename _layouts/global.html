@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang= "en">
+<head>
+<meta charset="utf-8" />
+<link media="(min-width: 815px)" rel="stylesheet" type="text/css" href="styles/navbarfixed.css" />
+<link media="(max-width: 815px)" rel="stylesheet" type="text/css" href="styles/navbarsmall.css" />
+<link rel="stylesheet" type="text/css" href="styles/base2.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap" rel="stylesheet">
+
+{% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+{% endif %}
+
+{% if page.keywords %}
+    {% assign keywords = page.keywords | join: ", " | prepend: "Paloma, Bordons, " %}
+{% else %}
+    {% assign keywords = "Paloma, Bordons" %}
+{% endif %}
+<meta name="keywords" content="{{ keywords }}">
+
+{% if page.stylesheet %}
+    <link rel="stylesheet" type="text/css" href="styles/{{ page.stylesheet }}" />
+{% endif %}
+
+{% if page.title %}
+    {% assign title = page.title | append: "- Paloma Bordons" %}
+{% else %}
+    {% assign title = "Paloma Bordons" %}
+{% endif %}
+<title>{{ title }}</title>
+
+{% if page.use_jquery %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+{% endif %}
+
+{% if page.js_file %}
+    <script src="js/{{ page.js_file }}"></script>
+{% endif %}
+
+</head>
+
+{{ content }}
+
+</html>

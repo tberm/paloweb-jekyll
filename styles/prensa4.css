@@ -1,0 +1,56 @@
+#prensa {
+    top:-5px;
+}
+
+.story {
+    margin:10px 20% 70px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:grey;
+    overflow: hidden;
+}
+
+.story-content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10%;
+}
+
+.story-text {
+    width: 50%;
+}
+
+.story-content--wide-text .story-text {
+    width: 70%;
+}
+
+.story-title {
+    font-size: 2em;
+    font-weight: 600;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:grey;
+}
+
+.story-date {
+    font-style: italic;
+}
+
+.story-image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.story-content--wide-text .story-image {
+    width: 30%;
+}
+
+.story-image img {
+    padding: 15px 0;
+    width: 100%;
+}
+
+.story-image.story-image--tall img {
+    width: 70%;
+}

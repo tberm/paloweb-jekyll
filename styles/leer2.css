@@ -1,0 +1,200 @@
+#leer {
+	top:-5px;
+}
+
+.page {
+    padding: 50px;
+}
+
+.popup {
+	width: 900px;
+	height: 75%;
+	position: fixed;
+	overflow-y: auto;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 20%;
+	z-index:-10;
+	opacity: 0;
+	box-shadow: 2px 2px 1px;
+	border: 1px solid grey;
+	background-color: white;
+	border-radius: 2px;
+	padding-right: 100px;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	transition: opacity 0.2s;	
+}	
+
+.top {
+	overflow: auto;
+	margin-top: 60px;
+}
+
+.popup .top img {
+	float:left;
+	margin-left: 150px;
+	margin-right: 100px;
+}
+
+.popup p {
+	margin-left: 80px;
+}
+
+.popup ul {
+	list-style:none;
+	line-height:1.5em;
+}
+
+.popup i {
+	position:relative;
+	left:20px;
+	font-size: 1.1em;
+	color: rgb(75, 70, 70);
+}
+
+cite {
+	font-weight: 600;
+	line-height: 3em;
+}
+
+.scroll {
+	overflow:auto;
+}
+
+.close {
+	width:22px;
+	height:22px;
+	overflow: hidden;
+	position: fixed;
+	left: 50%;
+	margin-left: 445px;
+	top: 22%;
+}
+
+.close img {
+	position: relative;
+}
+
+.close img:hover {
+	left: -22px;
+}
+	
+.grupo {
+	overflow: auto;
+	background-color: rgba(225, 225, 225, 0.4);
+	margin-bottom: 20px;
+	padding: 0 40px 20px;
+	border-radius: 10px;
+}
+
+.nombregrupo {
+	overflow: auto;
+	margin-left: 10px;
+}
+
+.libro {
+	float: left;
+	width: 250px;
+	margin: 5px;
+	background-clip: content-box;
+	position: relative;
+	height:342px;
+}
+
+.libro:hover {
+	cursor:pointer;
+}	
+
+.titlepic {
+	display:inline-block;
+	margin-left: 20px;
+	vertical-align:bottom;
+	border-radius:2px;
+}
+
+#title .centre {
+	text-align: center;
+}
+
+.libro img {
+	display: block;
+	margin: 0 auto;
+	bottom: 0;
+	position: relative;
+	box-shadow: 1px 1px 2px black;
+}
+
+.libro img:hover {
+	bottom:3px;
+	box-shadow: 2px 3px 2px black;
+}
+
+.cover {
+	position: relative;
+}
+
+#pubtitle img {
+	margin:50px 20px 0;
+}
+
+#publicados span {
+	font-size:1.1em;
+	margin-left: 0;
+}
+
+#publicados li {
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+.u {
+	text-decoration:underline;
+}
+	
+
+.titulo {
+	text-align:center;
+	font-weight:600;
+    font-size:1.2em;
+	margin-bottom:10px;
+	line-height:1em;
+	height:2em;
+	position:relative;
+}
+
+.popup .titulo {
+    text-align: left;
+    font-style: italic;
+}
+
+.detalles-libro {
+    font-size: 0.9em;
+}
+
+.align {
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.subtitle {
+	display:block;
+	margin-bottom:30px;
+}
+
+#lowp {
+	position:relative;
+	margin-left: 20px;
+}
+
+ul {
+	padding-left:10px;
+}	
+
+#venta {
+	overflow:auto;
+}

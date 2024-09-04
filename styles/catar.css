@@ -1,0 +1,197 @@
+#catar {
+    top:-5px;
+}
+
+.stretcher {
+    max-height: 0px;
+    -webkit-transition: max-height 0.5s ease-in;
+    -moz-transition: max-height 0.5s ease-in;
+    -o-transition: max-height 0.5s ease-in;
+    transition: max-height 0.5s ease-in;
+    overflow: hidden;
+}
+
+#intro {
+    line-height: 1.5em;
+    text-indent: 30px;
+    font-size: 1.1em;
+    width:100%;
+    overflow: auto;
+}
+
+#intro p {
+    margin:0 100px 50px 150px;
+}
+    
+#intro img {
+    float:right;
+    position: relative;
+    margin-left: 50px;
+}
+
+.select-list {
+    margin: 50px 100px 70px;
+    text-align: center;
+    /* eliminates auto whitespace between elements */
+    font-size: 0pt;
+}
+
+.piece-button {
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px 10px 5px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: gray;
+    cursor: pointer;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.piece-button:hover {
+    border-bottom-color: brown;
+    border-bottom-width: 3px;
+    margin-bottom: -2px;
+}
+
+.piece-button--selected {
+    border-bottom-color: #bf9074;
+    border-bottom-width: 3px;
+    margin-bottom: -2px;
+}
+
+small {
+    display:block;
+}
+
+.page #tra, #page #ray {
+    border-right-style:none;
+}
+
+.piece {
+    width: 100%;
+    display: none;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in;
+    -moz-transition: opacity 0.5s ease-in;
+    -o-transition: opacity 0.5s ease-in;
+    transition: opacity 0.5s ease-in;
+    text-align:center;
+}
+
+.speech {
+    font-style:italic;
+}
+
+.lyric {
+    text-align:center;
+    display:block;
+    font-style:italic;
+}
+
+#tubu {
+    font-size:1em;
+    line-height:1.2em;
+}
+
+.inpiece {
+    display: inline-block;
+    text-align: left;
+    margin-bottom:50px;
+}
+
+.right {
+    position: relative;
+    left: 70px;
+    float:right;
+}
+
+#tubupage {
+    display:block;
+    margin: 0 auto;
+    width:60%;
+    margin-bottom: 50px;
+}
+
+#tubupage .sub {
+    font-size: 0.8em;
+    margin-bottom: 1.5em;
+    display:block;
+}
+#tubupage p {
+    margin:0;
+    text-indent:30px;
+}
+
+#medico p {
+    float:left;
+    white-space: nowrap;
+}
+
+.col1 {
+    float:left;
+    margin-right:40px;
+}
+
+.col2 {
+    float:right;
+    padding-top:75px;
+}
+
+#saben img {
+    float:left;
+    margin-right:50px;
+    margin-top:100px;
+}
+
+#secreto img {
+    display:block;
+    margin-top:100px;
+}
+
+.stanza {
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stanza div {
+    float:left;
+    padding: 10px;
+}
+
+#traidor img {
+    height: 15em;
+}
+
+.stanza-img-30 {
+    object-fit: contain;
+    width: 30%;
+}
+
+.stanza-img-20 {
+    object-fit: contain;
+    width: 20%;
+}
+
+.stanza-img-15 {
+    object-fit: contain;
+    width: 15%;
+}
+
+.none-selected {
+    text-align: center;
+    color: grey;
+}
+
+#seno h2 {
+    text-align: center;
+}
