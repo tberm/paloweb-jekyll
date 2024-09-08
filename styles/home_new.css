@@ -1,0 +1,78 @@
+#page {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  /* border: solid blue; */
+  align-items: center;
+  justify-content: center;
+}
+
+#firma img {
+  width: 42vw;
+}
+
+.block {
+  /* border: solid red; */
+  width: 100px;
+  height: 100px;
+}
+
+.tile {
+    width: 25vw;
+    min-height: 0;  /* needed for firefox to do proper shrinking for some reason */
+    height: calc(1 - calc(calc(42vw * 0.124) / 2));
+    display: flex;
+    flex-direction: column;
+}
+
+#left .tile {
+    text-align: right;
+}
+
+#left .img-wrapper {
+    align-items: right;
+}
+
+#right .tile {
+    text-align: left;
+}
+
+#left .img-wrapper {
+    align-items: left;
+}
+
+#middle .tile {
+    text-align: center;
+}
+
+.tile img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.label {
+    font-size: 2em;
+    padding: 0 10%;
+}
+
+#left .tile, #left .label {
+    float: right;
+}
+
+#mirar-label {
+    position: relative;
+    bottom: 10%;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
