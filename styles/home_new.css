@@ -1,8 +1,9 @@
 #page {
   display: flex;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  width: 90vw;
+  height: 90vh;
+  padding: 5vh 5vw;
 }
 
 .col {
@@ -18,7 +19,6 @@
 }
 
 .block {
-  /* border: solid red; */
   width: 100px;
   height: 100px;
 }
@@ -26,9 +26,10 @@
 .tile {
     width: 25vw;
     min-height: 0;  /* needed for firefox to do proper shrinking for some reason */
-    height: calc(1 - calc(calc(42vw * 0.124) / 2));
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    color: black;
 }
 
 #left .tile {
@@ -55,11 +56,35 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.tile:hover img {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    transform: scale(1.02);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .label {
     font-size: 2em;
     padding: 0 10%;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.tile:hover .label {
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    transform: translateY(2px);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 #left .tile, #left .label {

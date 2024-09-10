@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    font-family: 'Alegreya', 'Georgia', serif;
+    font-size: 13pt;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 3.5em;
+    font-weight: 1000;
+    color: rgb(87, 148, 184);
+    margin: 50px 150px;
+}
+
+.parallax-container {
+    position: relative;
+    top: 95px;
+    height: calc(100vh - 95px);
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax-far, .parallax-near {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.parallax-near {
+    transform: translateZ(0);
+}
+
+.parallax-far {
+    transform: translateZ(-1px) scale(2);
+}
+
+.background {
+    /* should set this with JS based on current page size */
+    height: 300vh;
+    background-image: url("/images/redesign/telon_claro.jpg");
+    background-size: contain;
+}
+
+.page {
+    background: white;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 70%;
+    border: 10px solid white;
+    box-shadow: 0.5px 0.5px 2px;
+    height: auto;
+    top: 5em;
+}
