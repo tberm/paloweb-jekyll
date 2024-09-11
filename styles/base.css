@@ -12,11 +12,12 @@ body {
     margin: 50px 150px;
 }
 
-.parallax-container {
+.parallax-window {
     position: relative;
     top: 95px;
     height: calc(100vh - 95px);
     perspective: 1px;
+    perspective-origin: top;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -35,13 +36,14 @@ body {
 
 .parallax-far {
     transform: translateZ(-1px) scale(2);
+    transform-origin: top;
 }
 
 .background {
     /* should set this with JS based on current page size */
     height: 300vh;
     background-image: url("/images/redesign/telon_claro.jpg");
-    background-size: contain;
+    background-size: 100vw;
 }
 
 .page {
@@ -53,5 +55,5 @@ body {
     width: 70%;
     border: 10px solid #fbfcfc;
     height: auto;
-    top: 5em;
+    top: 100px;
 }
