@@ -7,7 +7,7 @@ body {
 
 .title {
     font-size: 3.5em;
-    font-weight: 1000;
+    font-weight: 600;
     color: rgb(87, 148, 184);
     margin: 50px 150px;
 }
@@ -45,14 +45,13 @@ body {
 }
 
 .page {
-    background: white;
+    background: #fbfcfc;
     border-radius: 3px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     width: 70%;
-    border: 10px solid white;
-    box-shadow: 0.5px 0.5px 2px;
+    border: 10px solid #fbfcfc;
     height: auto;
     top: 5em;
 }
