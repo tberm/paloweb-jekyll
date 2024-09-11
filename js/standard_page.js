@@ -1,4 +1,5 @@
 function adjust_bg_height() {
+    console.log('Adjusting background height')
     const re = /([\d\.]+)(.+)/
     const pageHeight = $('.page').css('height');
     const matches = pageHeight.match(re);
@@ -14,5 +15,12 @@ function adjust_bg_height() {
     }
 
     const newBgHeight = +matches[1] + 200 + 'px';
-    $('.background').css('height', newBgHeight);
+    $('.background').css('min-height', newBgHeight);
 }
+
+$(window).on('load', () => {
+
+    const pageObserver = new ResizeObserver(adjust_bg_height);
+
+    pageObserver.observe($('.page')[0]);
+});

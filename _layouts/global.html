@@ -10,10 +10,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap" rel="stylesheet">
 
-{% if page.layout == 'standard_page' %}
-    <script src="js/standard_page.js"></script>
-{% endif %}
-
 {% if page.description %}
     <meta name="description" content="{{ page.description }}">
 {% endif %}
@@ -36,8 +32,10 @@
 {% endif %}
 <title>{{ title }}</title>
 
-{% if page.use_jquery %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+{% if page.layout == 'standard_page' %}
+    <script src="js/standard_page.js"></script>
 {% endif %}
 
 {% if page.js_file %}

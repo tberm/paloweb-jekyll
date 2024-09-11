@@ -1,4 +1,6 @@
 $(function(){
+  $(".page").bind("resize", adjust_bg_height);
+
   $(".piece-button").click(function() {
     var $target = $("#" + $(this).data('target'));
 
@@ -11,8 +13,5 @@ $(function(){
     $(this).addClass("piece-button--selected");
     $(".stretcher").css("max-height","max-content");
 
-    $('html,body').animate({
-      scrollTop: $target.offset().top
-    }, 1000);
   });
 });
