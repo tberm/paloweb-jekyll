@@ -3,6 +3,9 @@ body {
     font-family: 'Alegreya', 'Georgia', serif;
     font-size: 13pt;
     min-height: 100vh;
+    /* Apparently needed for parallax layers to work properly on Edge
+    https://keithclark.co.uk/articles/practical-css-parallax/ */
+    transform: translateZ(0);
 }
 
 .title {
@@ -67,4 +70,8 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.firefox-fix {
+    position: relative;
 }
