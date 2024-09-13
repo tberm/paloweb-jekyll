@@ -54,13 +54,13 @@
 }
 
 .piece-button:hover {
-    border-bottom-color: brown;
+    border-bottom-color: rgb(20, 92, 187);
     border-bottom-width: 3px;
     margin-bottom: -2px;
 }
 
 .piece-button--selected {
-    border-bottom-color: #bf9074;
+    border-bottom-color: rgb(87, 148, 184);
     border-bottom-width: 3px;
     margin-bottom: -2px;
 }
