@@ -1,18 +1,28 @@
 body {
     margin: 0px;
     font-family: 'Alegreya', 'Georgia', serif;
-    font-size: 13pt;
+    font-size: 1.2rem;
     min-height: 100vh;
     /* Apparently needed for parallax layers to work properly on Edge
     https://keithclark.co.uk/articles/practical-css-parallax/ */
     transform: translateZ(0);
 }
 
-.title {
-    font-size: 3.5em;
+.title, h2 {
+    font-size: 3.5rem;
     font-weight: 600;
     color: rgb(87, 148, 184);
     margin: 50px 150px;
+}
+
+.single-col-margins {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #000099;
 }
 
 .parallax-window {
@@ -57,7 +67,7 @@ body {
 
 .page {
     background: #fbfcfc;
-    border-radius: 3px;
+    border-radius: 8px;
     position: relative;
     width: 70%;
     border: 10px solid #fbfcfc;

@@ -16,15 +16,6 @@
 	margin-top: 20px;
 }
 
-#title img {
-	margin: 0 20px 0;
-	vertical-align:middle;
-}
-
-#title {
-	text-align: center;
-}
-	
 
 #top {
 	width: 1050px;
@@ -39,7 +30,6 @@
 	overflow: hidden;
 	position: relative;
 }
-
 
 .left {
 	width: 550px;
@@ -62,7 +52,7 @@
 	float:left;
 }
 
-#plumazo .right p {
+.right p {
 	margin-right: 150px;
 	margin-left:0;
 }
@@ -100,10 +90,6 @@
 	position: relative;
 	float:left;
 	padding-right: 57px;
-}
-
-.subtitle {
-	margin: 10px 15px;
 }
 
 span {

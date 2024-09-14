@@ -12,9 +12,7 @@
 }
 
 #intro {
-    line-height: 1.5em;
     text-indent: 30px;
-    font-size: 1.1em;
     width:100%;
     overflow: auto;
 }
@@ -50,7 +48,7 @@
     margin: 0;
     color: black;
     text-decoration: none;
-    font-size: 13pt;
+    font-size: 1.3rem;
 }
 
 .piece-button:hover {
@@ -76,8 +74,6 @@ small {
 .piece {
     width: 100%;
     display: none;
-    font-size: 1.2em;
-    line-height: 1.5em;
     opacity: 0;
     -webkit-transition: opacity 0.5s ease-in;
     -moz-transition: opacity 0.5s ease-in;
