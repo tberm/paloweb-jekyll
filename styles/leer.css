@@ -2,25 +2,95 @@
 	top:-5px;
 }
 
-.page {
-    padding: 50px;
+.image-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 12%;
+	row-gap: 0.5rem;
+}
+
+@media (max-width: 749px) {
+	.image-grid .thumbnail {
+		width: 47%;
+	}
+}
+
+@media (min-width: 750px) and (max-width: 1229px) {
+	.image-grid .thumbnail {
+		width: 31%;
+	}
+}
+
+@media (min-width: 1230px) and (max-width: 1599px) {
+	.image-grid .thumbnail {
+		width: 24%;
+	}
+}
+
+@media (min-width: 1600px) {
+	.image-grid .thumbnail {
+		width: 19%;
+	}
+}
+
+.thumbnail img {
+	width: 100%;
+	height: 100%;
+	transition: filter 0.3s ease; 
+}
+
+.thumbnail__overlay {
+	display: none;
+	text-align: center;
+	padding: 5%;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail:hover {
+	cursor: pointer;
+}
+
+.thumbnail:hover .thumbnail__overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/* background-color: rgb(216, 216, 216);
+	opacity: 0.8;
+	visibility: visible;
+	pointer-events: auto; */
+}
+
+.thumbnail:hover img {
+	filter: opacity(0.3);
+}
+
+.thumbnail__title {
+	font-weight: 600;
+	font-size: 1.5rem;
+	font-style: italic;
 }
 
 .popup {
-	width: 900px;
-	height: 75%;
+	width: 80vw;
+	height: 80vh;
 	position: fixed;
 	overflow-y: auto;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	top: 20%;
+	top: 15vh;
 	z-index:-10;
 	opacity: 0;
-	box-shadow: 2px 2px 1px;
-	border: 1px solid grey;
-	background-color: white;
-	border-radius: 2px;
+	border: 1px solid rgb(74, 108, 148);
+	background-color: rgb(255, 255, 255);
+	border-radius: 8px;
 	padding-right: 100px;
 	-webkit-transition: opacity 0.2s;
 	-moz-transition: opacity 0.2s;
@@ -57,7 +127,6 @@
 
 cite {
 	font-weight: 600;
-	line-height: 3em;
 }
 
 .scroll {
@@ -68,10 +137,9 @@ cite {
 	width:22px;
 	height:22px;
 	overflow: hidden;
-	position: fixed;
-	left: 50%;
-	margin-left: 445px;
-	top: 22%;
+	position: absolute;
+	top: 20px;
+	right: 20px;
 }
 
 .close img {
@@ -140,14 +208,10 @@ cite {
 	margin:50px 20px 0;
 }
 
-#publicados span {
-	font-size:1.1em;
-	margin-left: 0;
-}
-
-#publicados li {
+li {
 	list-style-type: none;
 	margin-left: 20px;
+	line-height: 2.5em;
 }
 
 .u {

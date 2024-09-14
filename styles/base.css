@@ -12,12 +12,16 @@ body {
     font-size: 3.5rem;
     font-weight: 600;
     color: rgb(87, 148, 184);
-    margin: 50px 150px;
+    margin: 50px 12%;
 }
 
 .single-col-margins {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.section-spacer {
+    margin: 20px;
 }
 
 h3 {

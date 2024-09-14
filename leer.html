@@ -13,735 +13,741 @@ keywords:
 - juvenil
 
 use_jquery: true
-js_file: leer2.js
-stylesheet: leer2.css
+js_file: leer.js
+stylesheet: leer.css
 title: Para leer
 ---
 
-<div class="page">
-    <div class="title">
-        <img src="images/leer/leer_title.gif" class="titlepic">
-        <img src="images/leer/title.gif" id="lowp" class="titlepic">
-    </div>
-    <div class="subtitle"><img src="images/leer/venta.gif" class="titlepic"></div>
+<div class="page single-col-margins">
+    <h1 class="title">Para leer</h1>
+    <p class="single-col-margins">
+        Estos son algunos de mis libros, empezando por los m&aacute;s recientes.
+        Pincha en cada uno para saber m&aacute;s sobre &eacute;l.
+    </p>
 
-<div id="primeros" class="grupo">
-    <div class="nombregrupo">
-        <h2>Primeros lectores</h2>
-    </div>
-    <div id="horripeludo" class="libro">
-        <div class="titulo"><span class="align">&iexclQue viene Horripeludo!</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/horripeludo.jpg">
+    <div class="image-grid">
+        <div class="thumbnail" id="maripopis">
+            <img src="images/leer/covers/maripopis.webp">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Maripopis</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="paris">
+            <img src="images/leer/covers/paris.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Un t&iacute;o en Par&iacute;s</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="galli">
+            <img src="images/leer/covers/galli.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">El gallimimus</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="bobada">
+            <img src="images/leer/covers/bobada.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">La bobada celeste</p>
+                <p class="thumbnail__editor">Anaya</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="playa">
+            <img src="images/leer/covers/playa.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">La playa del Otro Lado</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="companias">
+            <img src="images/leer/covers/companias.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Malas compa&ntilde;&iacute;as</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="rollitos">
+            <img src="images/leer/covers/rollitos.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Rollitos de primavera</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="gruta">
+            <img src="images/leer/covers/gruta.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">La gruta de las EScorias</p>
+                <p class="thumbnail__editor">SM</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="cuchicuchis">
+            <img src="images/leer/covers/cuchicuchis.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">La noche de los cuchicuchis</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="horripeludo">
+            <img src="images/leer/covers/horripeludo.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">&iexcl;Que viene Horripeludo!</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="aura">
+            <img src="images/leer/covers/aura.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Tengo el aura un poco gris</p>
+                <p class="thumbnail__editor">SM</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="pollos">
+            <img src="images/leer/covers/pollos.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Pollos, pepinos y pitufos</p>
+                <p class="thumbnail__editor">SM</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="hadas">
+            <img src="images/leer/covers/hadas.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">No lleves hadas al cole</p>
+                <p class="thumbnail__editor">SM</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="abuelo">
+            <img src="images/leer/covers/abuelo.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Mi abuelo el Presunto</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="sombra">
+            <img src="images/leer/covers/sombra.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Sombra</p>
+                <p class="thumbnail__editor">SM</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="bruja">
+            <img src="images/leer/covers/bruja.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Mi vecina es una bruja</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="papas">
+            <img src="images/leer/covers/papas.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">La tierra de las papas</p>
+                <p class="thumbnail__editor">SM</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="famosa">
+            <img src="images/leer/covers/famosa.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Quiero ser famosa</p>
+                <p class="thumbnail__editor">SM</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="demonios">
+            <img src="images/leer/covers/demonios.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Demonios en camiseta</p>
+                <p class="thumbnail__editor">Edeb&eacute;</p>
+            </div>
+        </div>
+        <div class="thumbnail" id="chis">
+            <img src="images/leer/covers/chis.jpg">
+            <div class="thumbnail__overlay">
+                <p class="thumbnail__title">Chis y Garab&iacute;s</p>
+                <p class="thumbnail__editor">SM</p>
+            </div>
         </div>
     </div>
-    <div id="famosa" class="libro">
-        <div class="titulo"><span class="align">Quiero ser famosa</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/famosa.jpg">
-        </div>
-    </div>
-</div>
 
-<div id="seis" class="grupo">
-    <div class="nombregrupo">
-        <h2>A partir de seis a&ntildeos</h2>
-    </div>
-    <div id="hadas" class="libro">
-        <div class="titulo"><span class="align">No lleves hadas al cole</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/hadas.jpg">
-        </div>
-    </div><div id="demonios" class="libro">
-        <div class="titulo"><span class="align">Demonios en camiseta</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/demonios.jpg">
-        </div>
-    </div><div id="bruja" class="libro">
-        <div class="titulo"><span class="align">Mi vecina es una bruja</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/bruja.jpg">
-        </div>
-    </div>
-</div>
+    <div class="section-spacer">&nbsp;</div>
 
-<div id="ocho" class="grupo">
-    <div class="nombregrupo">
-        <h2>A partir de ocho a&ntilde;os</h2>
-    </div>
-    <div id="rollitos" class="libro">
-        <div class="titulo"><span class="align">Rollitos de primavera</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/rollitos.jpg">
-        </div>
-    </div>
-    <div id="cuchicuchis" class="libro">
-        <div class="titulo"><span class="align">La noche de los cuchicuchis</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/cuchicuchis.jpg">
-        </div>
-    </div>
-    <div id="chis" class="libro">
-        <div class="titulo"><span class="align">Chis y Garab&iacutes</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/chis.jpg">
-        </div>
-    </div>
-</div>
-
-<div id="diez" class="grupo">
-    <div class="nombregrupo">
-        <h2>A partir de diez a&ntilde;os</h2>
-    </div>
-    <div id="maripopis" class="libro">
-        <div class="titulo"><span class="align">Maripopis</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/maripopis.webp">
-        </div>
-    </div>
-    <div id="abuelo" class="libro">
-        <div class="titulo"><span class="align">Mi abuelo el presunto</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/abuelo.jpg">
-        </div>
-    </div>
-    <div id="bobada" class="libro">
-        <div class="titulo"><span class="align">La bobada celeste</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/bobada.jpg">
-        </div>
-    </div>
-    <div id="playa" class="libro">
-        <div class="titulo"><span class="align">La playa del otro lado</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/playa.jpg">
-        </div>
-    </div>
-    <div id="galli" class="libro">
-        <div class="titulo"><span class="align">El Gallimimus</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/galli.jpg">
-        </div>
-    </div>
-    <div id="paris" class="libro">
-        <div class="titulo"><span class="align">Un t&iacute;o en Par&iacute;s</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/paris.jpg">
-        </div>
+    <div class="single-col-margins">
+        <h3>Lista de libros publicados</h3>
+        <p>Aqu&iacute; tienes una lista completa de todos los libros que he publicado.</p>
+        <ul>
+            <li><cite>Maripopis.</cite> Barcelona: Edeb&eacute;, 2023</li>
+            <li><cite>El Gallimimus.</cite> Madrid: Anaya, 2017</li>
+            <li><cite>La bobada celeste.</cite> Madrid: Anaya, 2017</li>
+            <li><cite>La playa del otro lado.</cite> Barcelona: Edeb&eacute;, 2017</li>
+            <li><cite>Malas compa&ntilde;&iacute;as.</cite> Barcelona: Edeb&eacute;, 2014</li>
+            <li><cite>Rollitos de primavera.</cite> Barcelona: Edeb&eacute;, 2014</li>
+            <li><cite>La gruta de las escorias.</cite> Madrid: SM, 2010</li>
+            <li><cite>La noche de los cuchicuchis.</cite> Barcelona: Edeb&eacute;, 2009</li>
+            <li><cite>&iexcl;Que viene Horripeludo!</cite> Barcelona: Edeb&eacute;, 2009</li>
+            <li><cite>Tengo el aura un poco gris.</cite> Madrid: SM, 2009</li>
+            <li><cite>Pollos, pepinos y pitufos.</cite> Madrid: SM, 2008</li>
+            <li><cite>Quiero ser un difficult teenager.</cite> Madrid: SM, 2008 </li>
+            <li><cite>Siruza y T&uacute;.</cite> Barcelona: Edeb&eacute;, 2007 </li>
+            <li><cite>El dedo que no era un finger.</cite> Madrid: SM, 2007</li>
+            <li><cite>Totopo y Polpeta.</cite> Barcelona: Edeb&eacute;, 2007 </li>
+            <li><cite>De excursi&oacute;n con un cepell&oacute;n.</cite> Madrid: Edeb&eacute;, 2006</li>
+            <li><cite>Ograntes y gigantogros.</cite> Madrid: SM, 2006</li>
+            <li><cite>What a viaje.</cite> Madrid: SM, 2006 </li>
+            <li><cite>No lleves hadas al cole.</cite> Madrid: SM, 2005</li>
+            <li><cite>Mi abuelo el Presunto.</cite> Barcelona: Edeb&eacute;, 2004</li>
+            <li><cite>Sombra.</cite> Madrid: SM, 2004</li>
+            <li><cite>Marijota M&aacute;s Mejor.</cite> Barcelona: Edeb&eacute;, 2003 </li>
+            <li><cite>Hojas de l&iacute;neas cojas.</cite> (poes&iacute;a) Diputaci&oacute;n provincial de M&aacute;laga, 2003 </li>
+            <li><cite>Cuando fui grumete.</cite> Madrid: Alfaguara, 2000 </li>
+            <li><cite>Leporino Clandestino.</cite> Madrid: SM, 1999</li>
+            <li><cite>Qu&eacute; cornucopia.</cite> Madrid: Espasa Calpe, 1999 </li>
+            <li><cite>Mi vecina es una bruja.</cite> Barcelona: Edeb&eacute;, 1999</li>
+            <li><cite>La tierra de las papas.</cite> Madrid: SM, 1996</li>
+            <li><cite>Quiero ser famosa.</cite> Madrid: SM, 1994</li>
+            <li><cite>De noche.</cite> Madrid: SM, 1995 </li>
+            <li><cite>El gato de angora azul.</cite> La Paz. Secretar&iacute;a Nacional de Educaci&oacute;n de Bolivia, 1994 </li>
+            <li><cite>Cosas que se pierden.</cite> La Paz: Secretar&iacute;a Nacional de Educaci&oacute;n de Bolivia, 1994 </li>
+            <li><cite>Demonios en camiseta.</cite> Barcelona: Edeb&eacute;, 1994</li>
+            <li><cite>En casa de los Colodrillo.</cite> Madrid: SM, 1993 </li>
+            <li><cite>&Eacute;rame una vez.</cite> Madrid: SM, 1992 </li>
+            <li><cite>La se&ntilde;orita Pepota.</cite> Madrid: SM, 1991 </li>
+            <li><cite>Mico.</cite> Madrid: SM, 1991 </li>
+            <li><cite>La recaraba.</cite> Madrid: SM, 1988 </li>
+            <li><cite>Chis y Garab&iacute;s.</cite> Madrid: SM, 1987</li>
+        </ul>
+        <p class="u">Obras colectivas:</p>
+        <ul>
+            <li><cite>Cuarenta cuentos a todo vapor.</cite> Madrid: SM, 2018</li>
+            <li><cite>Don Quijote cabalga entre versos.</cite> Le&oacute;n: Everest, 2005</li>
+            <li><cite>La tierra, qu&eacute; pasada de planeta.</cite> Madrid: SM, 2002</li>
+            <li><cite>Un barco cargado de cuentos.</cite> Madrid: SM, 2002</li>
+            <li><cite>Cuentos azules.</cite> Madrid: SM, 2001</li>
+            <li><cite>Va de cuentos.</cite> Madrid: Espasa, 1999</li>
+        </ul>
     </div>
 
-</div>
-
-<div id="doce" class="grupo">
-    <div class="nombregrupo">
-        <h2>A partir de doce a&ntilde;os</h2>
-    </div>
-    <div id="papas" class="libro">
-        <div class="titulo"><span class="align">La tierra de las papas</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/papas.jpg">
-        </div>
-    </div><div id="sombra" class="libro">
-        <div class="titulo"><span class="align">Sombra</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/sombra.jpg">
-        </div>
-    </div><div id="pollos" class="libro">
-        <div class="titulo"><span class="align">Pollos, pepinos y pitufos</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/pollos.jpg">
-        </div>
-    </div><div id="aura" class="libro">
-        <div class="titulo"><span class="align">Tengo el aura un poco gris</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/aura.jpg">
-        </div>
-    </div><div id="gruta" class="libro">
-        <div class="titulo"><span class="align">La gruta de las escorias</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/gruta.jpg">
-        </div>
-    </div><div id="companias" class="libro">
-        <div class="titulo"><span class="align">Malas compa&ntilde;&iacute;as</span></div>
-        <div class="cover">
-        <img src="images/leer/covers/companias.jpg">
-        </div>
-    </div>
-</div>
-
-    <div id="pubtitle"><img src="images/leer/publicados.gif"></div>
-<div id="publicados">
-<ul><span>Esta es una lista cronol&oacute;gica de todos los libros que he publicado, incluyendo los t&iacute;tulos agotados (se&ntilde;alados con un     asterisco).</span>
-<li><cite>Chis y Garab&iacute;s.</cite> Madrid: SM, 1987</li><li>
-<cite>La recaraba.</cite> Madrid: SM, 1988 *</li><li>
-<cite>Mico.</cite> Madrid: SM, 1991 *</li><li>
-<cite>La se&ntilde;orita Pepota.</cite> Madrid: SM, 1991 *</li><li>
-<cite>&Eacute;rame una vez.</cite> Madrid: SM, 1992 *</li><li>
-<cite>En casa de los Colodrillo.</cite> Madrid: SM, 1993 *</li><li>
-<cite>Demonios en camiseta.</cite> Barcelona: Edeb&eacute;, 1994</li><li>
-<cite>De noche.</cite> Madrid: SM, 1995 *</li><li>
-<cite>El gato de angora azul.</cite> La Paz. Secretar&iacute;a Nacional de Educaci&oacute;n de Bolivia, 1994 *</li><li>
-<cite>Cosas que se pierden.</cite> La Paz: Secretar&iacute;a Nacional de Educaci&oacute;n de Bolivia, 1994 *</li><li>
-<cite>Quiero ser famosa.</cite> Madrid: SM, 1994</li><li>
-<cite>La tierra de las papas.</cite> Madrid: SM, 1996</li><li>
-<cite>Mi vecina es una bruja.</cite> Barcelona: Edeb&eacute;, 1999</li><li>
-<cite>Leporino Clandestino.</cite> Madrid: SM, 1999*</li><li>
-<cite>Qu&eacute; cornucopia.</cite> Madrid: Espasa Calpe, 1999 *</li><li>
-<cite>Cuando fui grumete.</cite> Madrid: Alfaguara, 2000 *</li><li>
-<cite>Marijota M&aacute;s Mejor.</cite> Barcelona: Edeb&eacute;, 2003 *</li><li>
-<cite>Hojas de l&iacute;neas cojas.</cite> (poes&iacute;a) Diputaci&oacute;n provincial de M&aacute;laga, 2003 *</li><li>
-<cite>Mi abuelo el Presunto.</cite> Barcelona: Edeb&eacute;, 2004</li><li>
-<cite>Sombra.</cite> Madrid: SM, 2004</li><li>
-<cite>No lleves hadas al cole.</cite> Madrid: SM, 2005</li><li>
-<cite>De excursi&oacute;n con un cepell&oacute;n.</cite> Madrid: Edeb&eacute;, 2006 *</li><li>
-<cite>Ograntes y gigantogros.</cite> Madrid: SM, 2006*</li><li>
-<cite>What a viaje.</cite> Madrid: SM, 2006 *</li><li>
-<cite>El dedo que no era un finger.</cite> Madrid: SM, 2007 *</li><li>
-<cite>Totopo y Polpeta.</cite> Barcelona: Edeb&eacute;, 2007 *</li><li>
-<cite>Siruza y T&uacute;.</cite> Barcelona: Edeb&eacute;, 2007 *</li><li>
-<cite>Quiero ser un difficult teenager.</cite> Madrid: SM, 2008 *</li><li>
-<cite>Pollos, pepinos y pitufos.</cite> Madrid: SM, 2008</li><li>
-<cite>Tengo el aura un poco gris.</cite> Madrid: SM, 2009</li><li>
-<cite>La noche de los cuchicuchis.</cite> Barcelona: Edeb&eacute;, 2009</li><li>
-<cite>&iexcl;Que viene Horripeludo!</cite> Barcelona: Edeb&eacute;, 2009</li><li>
-<cite>La gruta de las escorias.</cite> Madrid: SM, 2010</li><li>
-<cite>Rollitos de primavera.</cite> Barcelona: Edeb&eacute;, 2014</li><li>
-<cite>Malas compa&ntilde;&iacute;as.</cite> Barcelona: Edeb&eacute;, 2014</li><li>
-<cite>La playa del otro lado.</cite> Barcelona: Edeb&eacute;, 2017</li><li>
-<cite>La bobada celeste.</cite> Madrid: Anaya, 2017</li><li>
-<cite>El Gallimimus.</cite> Madrid: Anaya, 2017</li><li>
-<cite>Maripopis.</cite> Barcelona: Edeb&eacute;, 2023
-</li></ul>
-<ul><span class="u">Obras colectivas:</span>
-<li>
-<cite>Va de cuentos.</cite> Madrid: Espasa, 1999</li><li>
-<cite>Un barco cargado de cuentos.</cite> Madrid: SM, 2002</li><li>
-<cite>Cuentos azules.</cite> Madrid: SM, 2001</li><li>
-<cite>La tierra, qu&eacute; pasada de planeta.</cite> Madrid: SM, 2002</li><li>
-<cite>Don Quijote cabalga entre versos.</cite> Le&oacute;n: Everest, 2005</li>
-    </ul>
-</div>
-
-<div id="bobadapage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/bobada.jpg">
-        <div class="titulo">La bobada celeste</div>
-        <ul class="detalles-libro">
-        <li>Anaya, El Duende verde</li>
-        <li>A partir de 10 a&ntilde;os</li>
-        <li>Ilustrado por Fran Collado</li>
-        <li>165 p&aacutegs.</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><i><p>&quot;Estuvimos jugando al f&uacute;tbol en el parque hasta que se hizo de noche, Marcos y yo contra su padre. Un partidazo.<br>
--Mejor lo dejamos ya, que no se ve nada &ndash;dijo su padre.<br>
--&iquest;Qu&eacute; dices? Se ve de miedo &ndash;dijo Marcos, justo antes de estrellarse contra un &aacute;rbol.<br>
-Por su culpa tuvimos que parar. Ya hab&iacute;an salido unas pocas estrellas. Como est&aacute;bamos muy cansados, nos tumbamos en la hierba y el padre de Marcos nos fue diciendo los nombres.<br>
--Esa que brilla tanto es Venus. En realidad no es una estrella, sino un planeta. Es la primera en salir y la &uacute;ltima en desaparecer cuando amanece. &iquest;Veis esas siete que forman como un cuadrado con un rabito? &iquest;Sab&eacute;is c&oacute;mo se llaman?<br>
--La osa mayor &ndash;contest&oacute; Marcos-. Eso lo sabe cualquiera.<br>
-Yo no lo sab&iacute;a.<br>
--La osa mayor sirve para encontrar la estrella polar &ndash;continu&oacute; su padre-. Basta con seguir con el dedo la...<br>
--Eso, &iexcl;basta pap&aacute;! Para de darnos el rollo.<br>
--&iexcl;No! Sigue &ndash;ped&iacute; yo.<br>
-Sigui&oacute; durante un buen rato, porque iban apareciendo constelaciones nuevas y yo quer&iacute;a saber el nombre de todas. Hasta que Marcos dijo que ten&iacute;a hambre y que las estrellas no se com&iacute;an.<br>
--&iexcl;Jo! Te las sabes todas &ndash;le dije al padre mientras volv&iacute;amos a la casa.<br>
--Desde siempre me ha interesado la b&oacute;veda celeste. <br>
--&iexcl;A m&iacute; no me parece una bobada! &ndash;protest&eacute;.<br>
--Bobada no, &iexcl;b&oacute;veda!, bruto &ndash;me corrigi&oacute; Marcos, que se cree muy listo-. La b&oacute;veda celeste es el cielo dicho en fino.<br>
-Su padre solt&oacute; una carcajada.<br>
--&iexcl;La bobada celeste! &iexcl;Esta s&iacute; que es buena!<br>
-De tanto como se re&iacute;a se tuvo que parar. Cuando seguimos andando me qued&eacute; atr&aacute;s, dando patadas a una piedra.<br>
--&iexcl;Eh, Lorenzo! &ndash;me llam&oacute; el padre de Marcos-. No te habr&aacute;s enfadado &iquest;no?<br>
-En vez de contestar hice volar la piedra por los aires.<br>
--Buen chute &ndash;dijo &eacute;l.&quot;<br>
-</p></i>
-<p>A Marcos le va a llevar su padre a ver una lluvia de estrellas. &iexcl;Ya le gustar&iacute;a a Lorenzo tener un padre tan enrollado como el de su amigo! Bueno, se conformar&iacute;a con tener un padre, y punto. Claro que tampoco puede quejarse: Ah&iacute; est&aacute; Charlie, el nuevo novio de su madre, que le lleva en su moto y le ense&ntilde;a llaves para defenderse de sus enemigos. Seg&uacute;n Marcos, Charlie es &ldquo;mala gente&rdquo;. &iexcl;Bah! Lo dice por envidia, y porque Charlie nunca le monta en su Kawasaki. Charlie es un buen tipo. &iquest;O no?</p>
-    </div>
 </div>
 
-<div id="playapage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/playa.jpg">
-        <div class="titulo">La playa del otro lado</div>
-        <ul class="detalles-libro">
-        <li>Edeb&eacute, Tuc&aacute;n verde</li>
-        <li>A partir de 10 a&ntilde;os</li>
-        <li>Ilustrado por Paloma Bordons</li>
-        <li>249 p&aacutegs.</li></ul>
+<div id="hidden-popups">
+    <div id="bobadapage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/bobada.jpg">
+            <div class="titulo">La bobada celeste</div>
+            <ul class="detalles-libro">
+            <li>Anaya, El Duende verde</li>
+            <li>A partir de 10 a&ntilde;os</li>
+            <li>Ilustrado por Fran Collado</li>
+            <li>165 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><i><p>&quot;Estuvimos jugando al f&uacute;tbol en el parque hasta que se hizo de noche, Marcos y yo contra su padre. Un partidazo.<br>
+    -Mejor lo dejamos ya, que no se ve nada &ndash;dijo su padre.<br>
+    -&iquest;Qu&eacute; dices? Se ve de miedo &ndash;dijo Marcos, justo antes de estrellarse contra un &aacute;rbol.<br>
+    Por su culpa tuvimos que parar. Ya hab&iacute;an salido unas pocas estrellas. Como est&aacute;bamos muy cansados, nos tumbamos en la hierba y el padre de Marcos nos fue diciendo los nombres.<br>
+    -Esa que brilla tanto es Venus. En realidad no es una estrella, sino un planeta. Es la primera en salir y la &uacute;ltima en desaparecer cuando amanece. &iquest;Veis esas siete que forman como un cuadrado con un rabito? &iquest;Sab&eacute;is c&oacute;mo se llaman?<br>
+    -La osa mayor &ndash;contest&oacute; Marcos-. Eso lo sabe cualquiera.<br>
+    Yo no lo sab&iacute;a.<br>
+    -La osa mayor sirve para encontrar la estrella polar &ndash;continu&oacute; su padre-. Basta con seguir con el dedo la...<br>
+    -Eso, &iexcl;basta pap&aacute;! Para de darnos el rollo.<br>
+    -&iexcl;No! Sigue &ndash;ped&iacute; yo.<br>
+    Sigui&oacute; durante un buen rato, porque iban apareciendo constelaciones nuevas y yo quer&iacute;a saber el nombre de todas. Hasta que Marcos dijo que ten&iacute;a hambre y que las estrellas no se com&iacute;an.<br>
+    -&iexcl;Jo! Te las sabes todas &ndash;le dije al padre mientras volv&iacute;amos a la casa.<br>
+    -Desde siempre me ha interesado la b&oacute;veda celeste. <br>
+    -&iexcl;A m&iacute; no me parece una bobada! &ndash;protest&eacute;.<br>
+    -Bobada no, &iexcl;b&oacute;veda!, bruto &ndash;me corrigi&oacute; Marcos, que se cree muy listo-. La b&oacute;veda celeste es el cielo dicho en fino.<br>
+    Su padre solt&oacute; una carcajada.<br>
+    -&iexcl;La bobada celeste! &iexcl;Esta s&iacute; que es buena!<br>
+    De tanto como se re&iacute;a se tuvo que parar. Cuando seguimos andando me qued&eacute; atr&aacute;s, dando patadas a una piedra.<br>
+    -&iexcl;Eh, Lorenzo! &ndash;me llam&oacute; el padre de Marcos-. No te habr&aacute;s enfadado &iquest;no?<br>
+    En vez de contestar hice volar la piedra por los aires.<br>
+    -Buen chute &ndash;dijo &eacute;l.&quot;<br>
+    </p></i>
+    <p>A Marcos le va a llevar su padre a ver una lluvia de estrellas. &iexcl;Ya le gustar&iacute;a a Lorenzo tener un padre tan enrollado como el de su amigo! Bueno, se conformar&iacute;a con tener un padre, y punto. Claro que tampoco puede quejarse: Ah&iacute; est&aacute; Charlie, el nuevo novio de su madre, que le lleva en su moto y le ense&ntilde;a llaves para defenderse de sus enemigos. Seg&uacute;n Marcos, Charlie es &ldquo;mala gente&rdquo;. &iexcl;Bah! Lo dice por envidia, y porque Charlie nunca le monta en su Kawasaki. Charlie es un buen tipo. &iquest;O no?</p>
+        </div>
     </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><p><i>&quot;Rascal se par&oacute; en medio de la habitaci&oacute;n que compart&iacute;an Leo y su madre. Miraba a todas partes con ojos que el asombro hac&iacute;a parecer saltones.<br>
--&iquest;Te gusta? &ndash;la madre de Leo le sonri&oacute;.<br>
--Te gusssstaaa... &ndash;repiti&oacute; Rascal, y se ech&oacute; a re&iacute;r con su bocaza llena de dientes grandes y muy blancos.<br>
-Estaba claro que no entend&iacute;a el espa&ntilde;ol.<br>
-La madre de Leo se rio tambi&eacute;n, a saber de qu&eacute;.<br>
--A ver qu&eacute; encontramos para vestirte... &ndash;abri&oacute; el armario-. Leo y t&uacute; sois m&aacute;s o menos de la misma altura.<br>
--Yo soy m&aacute;s alto &ndash;rectific&oacute; Leo, malhumorado.<br>
--Apenas. Pero s&iacute; que eres bastante m&aacute;s grueso. Necesitaremos un cintur&oacute;n.<br>
-&iexcl;Ahora su madre le llamaba gordo! Leo no era grueso... Aunque cualquiera parec&iacute;a gordo al lado de ese palillo color chocolate. &iquest;C&oacute;mo se las habr&iacute;a arreglado para arrastrar a Leo hasta la orilla? &iexcl;Si se le pod&iacute;an contar las costillas! Por lo flaco y porque solo vest&iacute;a una especie de calz&oacute;n harapiento. La madre de Leo le hizo ponerse unas bermudas y una camiseta de rayas.<br>
--Guap&iacute;simo &ndash;opin&oacute;.<br>
-Un mamarracho, eso era lo que parec&iacute;a, perdido en la ropa de Leo.<br></i>
-</p>
-<p>&iquest;Qui&eacute;n dijo que los sorteos nunca tocan? Leo y su madre han ganado un viaje a una isla tropical y est&aacute;n disfrutando de unas vacaciones de ensue&ntilde;o en el hotel Paradiso. Bueno, eso hasta que aparece el fresco de Rascal y lo alborota todo. Es por &eacute;l que Leo y su amiga Big conocen a los ni&ntilde;os del Otro Lado, cuya vida no puede ser m&aacute;s distinta a la de los ricos hu&eacute;spedes del Paradiso. Cuando estos dos mundos se encuentran, hay problemas. Las vacaciones de Leo van a resultar mucho m&aacute;s emocionantes de lo que pensaba.<br>
-&#8195;<br>
-</p>
 
-    </div>
-</div>
+    <div id="playapage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/playa.jpg">
+            <div class="titulo">La playa del otro lado</div>
+            <ul class="detalles-libro">
+            <li>Edeb&eacute, Tuc&aacute;n verde</li>
+            <li>A partir de 10 a&ntilde;os</li>
+            <li>Ilustrado por Paloma Bordons</li>
+            <li>249 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><p><i>&quot;Rascal se par&oacute; en medio de la habitaci&oacute;n que compart&iacute;an Leo y su madre. Miraba a todas partes con ojos que el asombro hac&iacute;a parecer saltones.<br>
+    -&iquest;Te gusta? &ndash;la madre de Leo le sonri&oacute;.<br>
+    -Te gusssstaaa... &ndash;repiti&oacute; Rascal, y se ech&oacute; a re&iacute;r con su bocaza llena de dientes grandes y muy blancos.<br>
+    Estaba claro que no entend&iacute;a el espa&ntilde;ol.<br>
+    La madre de Leo se rio tambi&eacute;n, a saber de qu&eacute;.<br>
+    -A ver qu&eacute; encontramos para vestirte... &ndash;abri&oacute; el armario-. Leo y t&uacute; sois m&aacute;s o menos de la misma altura.<br>
+    -Yo soy m&aacute;s alto &ndash;rectific&oacute; Leo, malhumorado.<br>
+    -Apenas. Pero s&iacute; que eres bastante m&aacute;s grueso. Necesitaremos un cintur&oacute;n.<br>
+    &iexcl;Ahora su madre le llamaba gordo! Leo no era grueso... Aunque cualquiera parec&iacute;a gordo al lado de ese palillo color chocolate. &iquest;C&oacute;mo se las habr&iacute;a arreglado para arrastrar a Leo hasta la orilla? &iexcl;Si se le pod&iacute;an contar las costillas! Por lo flaco y porque solo vest&iacute;a una especie de calz&oacute;n harapiento. La madre de Leo le hizo ponerse unas bermudas y una camiseta de rayas.<br>
+    -Guap&iacute;simo &ndash;opin&oacute;.<br>
+    Un mamarracho, eso era lo que parec&iacute;a, perdido en la ropa de Leo.<br></i>
+    </p>
+    <p>&iquest;Qui&eacute;n dijo que los sorteos nunca tocan? Leo y su madre han ganado un viaje a una isla tropical y est&aacute;n disfrutando de unas vacaciones de ensue&ntilde;o en el hotel Paradiso. Bueno, eso hasta que aparece el fresco de Rascal y lo alborota todo. Es por &eacute;l que Leo y su amiga Big conocen a los ni&ntilde;os del Otro Lado, cuya vida no puede ser m&aacute;s distinta a la de los ricos hu&eacute;spedes del Paradiso. Cuando estos dos mundos se encuentran, hay problemas. Las vacaciones de Leo van a resultar mucho m&aacute;s emocionantes de lo que pensaba.<br>
+    &#8195;<br>
+    </p>
 
-<div id="horripeludopage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/horripeludo.jpg">
-        <div class="titulo">&iexcl;Que viene Horripeludo!</div>
-        <ul class="detalles-libro">
-        <li>Edeb&eacute, Tren azul</li>
-        <li>Primeros lectores</li>
-        <li>Ilustrado por Mar&iacutea Espluga</li>
-        <li>32 p&aacutegs.</li></ul>
+        </div>
     </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&quot-&iexclVenga, a dormir, que es muy tarde!<br>Pap&aacute me apaga la luz.<br>Todo se queda muy oscuro y muy callado.<br>No me gusta cuando todo est&aacute tan oscuro y tan callado.<br>En las noches oscuras y calladas         pueden pasar cosas horribles.&quot</i><br><br><p>&#8230; Como por ejemplo, que venga el Horripeludo Monstruo de lo Oscuro y quiera que le hagas un hueco en tu cama.</p> 
+
+    <div id="horripeludopage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/horripeludo.jpg">
+            <div class="titulo">&iexcl;Que viene Horripeludo!</div>
+            <ul class="detalles-libro">
+            <li>Edeb&eacute, Tren azul</li>
+            <li>Primeros lectores</li>
+            <li>Ilustrado por Mar&iacutea Espluga</li>
+            <li>32 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&quot-&iexclVenga, a dormir, que es muy tarde!<br>Pap&aacute me apaga la luz.<br>Todo se queda muy oscuro y muy callado.<br>No me gusta cuando todo est&aacute tan oscuro y tan callado.<br>En las noches oscuras y calladas         pueden pasar cosas horribles.&quot</i><br><br><p>&#8230; Como por ejemplo, que venga el Horripeludo Monstruo de lo Oscuro y quiera que le hagas un hueco en tu cama.</p> 
+        </div>
     </div>
-</div>
-<div id="famosapage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/famosa.jpg">
-        <div class="titulo">Quiero ser famosa</div>
-        <ul class="detalles-libro">
-        <li>SM, Barco de Vapor</li>
-        <li>Serie blanca</li>
-        <li>Primeros lectores</li>
-        <li>Ilustrado por Beatriz Castro</li>
-        <li>64 p&aacutegs.</li></ul>
+    <div id="famosapage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/famosa.jpg">
+            <div class="titulo">Quiero ser famosa</div>
+            <ul class="detalles-libro">
+            <li>SM, Barco de Vapor</li>
+            <li>Serie blanca</li>
+            <li>Primeros lectores</li>
+            <li>Ilustrado por Beatriz Castro</li>
+            <li>64 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;&iquest;T&uacute; qu&eacute; quieres ser de mayor, Anusca? &ndash;pregunta t&iacute;a Enriqueta.<br>
+    -Famosa &ndash;responde Ana.<br>
+    -Pero famosa &iquest;qu&eacute;? &iquest;Una famosa doctora? &iquest;Una famosa periodista? &iquest;Una famosa actriz?<br>
+    Anusca se queda pensando y luego se encoge de hombros.<br>
+    -Una famosa&#8230; famosa.&rdquo;<br>
+    <br></i>
+    Ana no lo sabe todav&iacute;a, pero est&aacute; a punto de saltar a la fama de una manera un tanto particular&#8230;<br></p> 
+        </div>
     </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;&iquest;T&uacute; qu&eacute; quieres ser de mayor, Anusca? &ndash;pregunta t&iacute;a Enriqueta.<br>
--Famosa &ndash;responde Ana.<br>
--Pero famosa &iquest;qu&eacute;? &iquest;Una famosa doctora? &iquest;Una famosa periodista? &iquest;Una famosa actriz?<br>
-Anusca se queda pensando y luego se encoge de hombros.<br>
--Una famosa&#8230; famosa.&rdquo;<br>
-<br></i>
-Ana no lo sabe todav&iacute;a, pero est&aacute; a punto de saltar a la fama de una manera un tanto particular&#8230;<br></p> 
+    <div id="hadaspage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/hadas.jpg">
+            <div class="titulo">No lleves hadas al cole</div>
+            <ul class="detalles-libro">
+            <li>SM, Barco de Vapor</li>
+            <li>Serie azul</li>
+            <li>A partir de 7 a&ntildeos</li>
+            <li>Ilustrado por Roc&iacuteo Mart&iacutenez</li>
+            <li>73 p&aacutegs.</li>
+            <li>Existe traducci&oacuten al italiano</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;Un d&iacute;a, la princesa Cucamona se present&oacute; en clase con un hada madrina.<br>
+    Era un hada peque&ntilde;ita, luminosa y un poco transparente. Flotaba en el aire, justo sobre la cabeza de Cucamona.<br>
+    Cuando la vio, la Se&ntilde;o dijo:<br>
+    -Alteza, bien sab&eacute;is que est&aacute; prohibido traer hadas a&#8230;<br>
+    No dijo m&aacute;s: el hada madrina la hechiz&oacute; con su varita y la dej&oacute; durmiendo de pie, con el brazo levantado y la tiza en la mano. Como no se despertaba, los alumnos empezaron a perseguirse entre las mesas, jugando al vos la llev&aacute;is.&rdquo;</i><br><br>Si por lo menos s&oacute;lo fuera una&#8230; Pero el hada de Cucamona despierta la envidia de sus compa&ntilde;eros y pronto la clase se llena de hadas, para gran desesperaci&oacute;n de la Se&ntilde;o. Es el comienzo de un gran desbarajuste.</p> 
+        </div>
     </div>
-</div>
-<div id="hadaspage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/hadas.jpg">
-        <div class="titulo">No lleves hadas al cole</div>
-        <ul class="detalles-libro">
-        <li>SM, Barco de Vapor</li>
-        <li>Serie azul</li>
-        <li>A partir de 7 a&ntildeos</li>
-        <li>Ilustrado por Roc&iacuteo Mart&iacutenez</li>
-        <li>73 p&aacutegs.</li>
-        <li>Existe traducci&oacuten al italiano</li></ul>
+    <div id="demoniospage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/demonios.jpg">
+            <div class="titulo">Demonios en camiseta</div>
+            <ul class="detalles-libro">
+            <li>Edeb&eacute, Tuc&aacuten azul</li>
+            <li>A partir de 6 a&ntildeos</li>
+            <li>Ilustrado por Sergio Garc&iacutea</li>
+            <li>48 p&aacutegs.</li>
+            <li>Existe en castellano, catal&aacuten, gallego, euskera y         valenciano</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;El se&ntilde;or Garambaina es due&ntilde;o de la famosa f&aacute;brica de osos de peluche Garambaina. <br>
+    En la f&aacute;brica Garambaina, sus empleados fabrican osos de peluche sin parar.<br>
+    Mauricio pone patas a los osos con una m&aacute;quina que suena:<br>
+    FRUSTIFROP&#8230; FRUSTIFROP&#8230;<br>
+    Leticio cose las orejas a los osos con una m&aacute;quina que hace:<br>
+    BLAMPITI&#8230; BLAMPITI&#8230;<br>
+    Patricio mete el relleno en las barrigas de los osos. Su m&aacute;quina dice:<br>
+    BROOOMM&#8230; BROOOMM&#8230;<br>
+    El pobre Simplicio no usa ninguna m&aacute;quina. Se encarga de meter los osos de peluche en cajas de cart&oacute;n. A los osos no les gusta nada que los encierren en cajas. Por eso, siempre que pueden dan patadas y alg&uacute;n que otro pellizco&rdquo;.<br></i>
+    <br>
+    El se&ntilde;or Garambaina grita &iexcl;Demonios en camiseta! cada vez que se enfada. Es decir: todo el tiempo menos cuando est&aacute; con su nieto. Y de su f&aacute;brica salen unos osos de peluche muy, pero que muy especiales.</p> 
+        </div>
     </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;Un d&iacute;a, la princesa Cucamona se present&oacute; en clase con un hada madrina.<br>
- Era un hada peque&ntilde;ita, luminosa y un poco transparente. Flotaba en el aire, justo sobre la cabeza de Cucamona.<br>
- Cuando la vio, la Se&ntilde;o dijo:<br>
- -Alteza, bien sab&eacute;is que est&aacute; prohibido traer hadas a&#8230;<br>
- No dijo m&aacute;s: el hada madrina la hechiz&oacute; con su varita y la dej&oacute; durmiendo de pie, con el brazo levantado y la tiza en la mano. Como no se despertaba, los alumnos empezaron a perseguirse entre las mesas, jugando al vos la llev&aacute;is.&rdquo;</i><br><br>Si por lo menos s&oacute;lo fuera una&#8230; Pero el hada de Cucamona despierta la envidia de sus compa&ntilde;eros y pronto la clase se llena de hadas, para gran desesperaci&oacute;n de la Se&ntilde;o. Es el comienzo de un gran desbarajuste.</p> 
+    <div id="brujapage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/bruja.jpg">
+            <div class="titulo">Mi vecina es una bruja</div>
+            <ul class="detalles-libro">
+            <li>Edeb&eacute, Tuc&aacuten naranja</li>
+            <li>A partir de 8 a&ntildeos</li>
+            <li>Ilustrado por la autora</li>
+            <li>40 p&aacutegs.</li>
+            <li>Existe en castellano, catal&aacuten, gallego, euskera y valenciano</li>
+            <li>ISBN 978-84-236-8480-9</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;Hoy ha llegado la nueva vecina del &aacute;tico.<br>
+    Me ha bastado echarle un vistazo para saberlo. &iexcl;Es bruja! S&iacute;, bruja, te apuesto lo que quieras...&rdquo;<br></i>
+    <br>
+    Lo malo es que s&oacute;lo nuestra hero&iacute;na se ha dado cuenta. De modo que sus padres y vecinos no resultar&aacute;n nada comprensivos cuando intente salvarlos de la m&aacute;s terrible de las brujas.</p> 
+        </div>
     </div>
-</div>
-<div id="demoniospage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/demonios.jpg">
-        <div class="titulo">Demonios en camiseta</div>
-        <ul class="detalles-libro">
-        <li>Edeb&eacute, Tuc&aacuten azul</li>
-        <li>A partir de 6 a&ntildeos</li>
-        <li>Ilustrado por Sergio Garc&iacutea</li>
-        <li>48 p&aacutegs.</li>
-        <li>Existe en castellano, catal&aacuten, gallego, euskera y         valenciano</li></ul>
+    <div id="rollitospage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/rollitos.jpg">
+            <div class="titulo">Rollitos de primavera</div>
+            <ul class="detalles-libro">
+            <li>Edeb&eacute, Tuc&aacuten naranja</li>
+            <li>A partir de 8 a&ntildeos</li>
+            <li>Traducido al franc&eacute;s</li>
+            <li>Ilustrado por la autora</li>
+            <li>168 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;Yo vivo en la calle de la Magnolia n&uacute;mero 7, piso tercero B. Nos mudamos hace solo dos meses y mi casa es muy nueva. Est&aacute; rodeada por un muro y tiene un jard&iacute;n privado y unos columpios privados, solo para los que vivimos en el n&uacute;mero 7 de la calle de la Magnolia.<br>
+    La ni&ntilde;a no vive en nuestra casa. Su padre tiene una tienda en la esquina que se llama el Chollo Chino. En la tienda esa hay de todo y nunca cierra. La ni&ntilde;a se pasa horas sentada en el escal&oacute;n de la puerta del Chollo Chino. Desde all&iacute; vigila el port&oacute;n de nuestra casa. Y, en cuanto alguien entra o sale, se cuela en el jard&iacute;n.&rdquo;<br><br></i>La primera vez, Julio y sus amigos de Magnolia 7 aceptan a la ni&ntilde;a china en sus juegos. Hasta que aprenden que no tiene derecho a entrar en su jard&iacute;n. &iexcl;Estar&iacute;a bueno! Por algo es una propiedad privada.<br>
+    Pero la chinita no entiende de propiedades privadas. Por no entender, ni siquiera parece entender el espa&ntilde;ol. Aqu&iacute; va a haber l&iacute;o.</p> 
+        </div>
     </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;El se&ntilde;or Garambaina es due&ntilde;o de la famosa f&aacute;brica de osos de peluche Garambaina. <br>
-En la f&aacute;brica Garambaina, sus empleados fabrican osos de peluche sin parar.<br>
-Mauricio pone patas a los osos con una m&aacute;quina que suena:<br>
- FRUSTIFROP&#8230; FRUSTIFROP&#8230;<br>
-Leticio cose las orejas a los osos con una m&aacute;quina que hace:<br>
- BLAMPITI&#8230; BLAMPITI&#8230;<br>
-Patricio mete el relleno en las barrigas de los osos. Su m&aacute;quina dice:<br>
- BROOOMM&#8230; BROOOMM&#8230;<br>
-El pobre Simplicio no usa ninguna m&aacute;quina. Se encarga de meter los osos de peluche en cajas de cart&oacute;n. A los osos no les gusta nada que los encierren en cajas. Por eso, siempre que pueden dan patadas y alg&uacute;n que otro pellizco&rdquo;.<br></i>
-<br>
-El se&ntilde;or Garambaina grita &iexcl;Demonios en camiseta! cada vez que se enfada. Es decir: todo el tiempo menos cuando est&aacute; con su nieto. Y de su f&aacute;brica salen unos osos de peluche muy, pero que muy especiales.</p> 
+    <div id="chispage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/chis.jpg">
+            <div class="titulo">Chis y Garab&iacutes</div>
+            <ul class="detalles-libro">
+            <li>SM, Barco de Vapor</li>
+            <li>Serie naranja</li>
+            <li>A partir de 8 a&ntildeos</li>
+            <li>Ilustrado por Ana L&oacutepez Escriv&aacute
+            <li>120 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;En alg&uacute;n punto o, mejor dicho, en dos puntos del inmenso oc&eacute;ano Atl&eacute;tico, no lejos de las pen&iacute;nsulas de Oste y Moste, se encuentran las min&uacute;sculas islas de Chis y Garab&iacute;s, donde transcurre esta historia.<br>
+    La forma m&aacute;s f&aacute;cil de llegar a Chis y Garab&iacute;s, y la &uacute;nica que conozco, es por casualidad. Por casualidad llegu&eacute; yo un d&iacute;a. Pero otro d&iacute;a me march&eacute;, tambi&eacute;n por casualidad, y ya no he sabido regresar.<br>
+    Durante el tiempo que estuve entre los chisinos y los garabisinos, me contaron esta historia&#8230;&rdquo;<br><br></i>
+    &iquest;Que qu&eacute; historia? Pues la historia de lo que pas&oacute; en las dos islas cuando La Nube de los Jueves decidi&oacute; un buen d&iacute;a (jueves) dejar de llover en Garab&iacute;s, ocasionando un mont&oacute;n de problemas.</p> 
+        </div>
     </div>
-</div>
-<div id="brujapage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/bruja.jpg">
-        <div class="titulo">Mi vecina es una bruja</div>
-        <ul class="detalles-libro">
-        <li>Edeb&eacute, Tuc&aacuten naranja</li>
-        <li>A partir de 8 a&ntildeos</li>
-        <li>Ilustrado por la autora</li>
-        <li>40 p&aacutegs.</li>
-        <li>Existe en castellano, catal&aacuten, gallego, euskera y valenciano</li>
-        <li>ISBN 978-84-236-8480-9</li></ul>
+    <div id="maripopispage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/maripopis.webp">
+            <div class="titulo">Maripopis</div>
+            <ul class="detalles-libro">
+                <li>Edeb&eacute;, Tuc&aacute;n verde</li>
+                <li>A partir de 10 a&ntilde;os</li>
+                <li>Ilustrado por Paloma Bordons</li>
+                <li>142 p&aacute;gs.</li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;</p>
+            <p><i>
+                Hay cola en la helader&iacute;a nueva.<br>
+                &ldquo;Oferta de apertura: dos helados por el precio de uno&rdquo;, dice el cartel.<br>
+                Y se ve que todo el barrio se ha enterado.<br>
+                Mientras esperamos, elijo sabor. Estoy dudando entre triple chocolate y chocolate con pepitas de chocolate. Pero al final decido ser atrevida y escojo un gusto muy ex&oacute;tico que suena a japon&eacute;s. <br>
+                &ndash;Yo quiero tiru&#8230; misu &ndash;le pido al vendedor.<br>
+                &ndash;Tiramis&uacute; &ndash;me corrige mi padre&ndash;. &iquest;Nos pone una bola de tiramis&uacute;, por favor? <br>
+                El se&ntilde;or se le queda mirando y dice:<br>
+                &ndash;No.<br>
+                &ndash;&iquest;No tiene de tiramis&uacute;? &iquest;No es ese de ah&iacute;?<br>
+                En vez de contestar, el heladero dice:<br>
+                &ndash;T&uacute; eres Daniel Garrido, &iquest;verdad?<br>
+                &ndash;S&iacute; &ndash;dice mi padre.<br>
+                &ndash;Pues no tengo helado para ti.<br>
+                Mi padre hincha el pecho y me preparo para la que se avecina, porque menudo es mi padre cuando se enfada.<br>
+                &ndash;Pero &iquest;t&uacute; qui&eacute;n te crees que eres&#8230;? &ndash;empieza.<br>
+                &ndash;El Cachalote &ndash;dice el heladero con voz ronca.<br>
+                Se infla al mismo tiempo que mi padre se desinfla. Y ya era grande de antes.<br>
+                &ndash;El helado no es para m&iacute;, es para mi hija &ndash;murmura mi padre&ndash;. Solo es una ni&ntilde;a.<br>
+                &ndash;S&iacute;. Es una pena &ndash;gru&ntilde;e el heladero&ndash;. Es cruel hacer sufrir a los ni&ntilde;os. A ver, &iquest;qui&eacute;n va ahora? &iquest;T&uacute;, rubiales? &iquest;Qu&eacute; te pongo?<br>
+                Se pone a servir al que nos sigue en la fila y no vuelve a mirarnos.<br>
+                Mi padre y yo salimos de la tienda sin helado. Yo estoy muy decepcionada por dos razones:<br>
+                Una: que alguien ha tratado mal a mi padre y &eacute;l se ha dejado.<br>
+                Dos: que me he quedado sin helado de timisar&uacute;.<br>
+                &ndash;De todos modos hace fr&iacute;o, no apetece tomar helado &ndash;dice mi padre&ndash;. &iexcl;Mira! Si hasta parece que va a llover.<br>
+                &ndash;No va a llover para nada &ndash;refunfu&ntilde;o&ndash;. &iexcl;Qu&eacute; se&ntilde;or m&aacute;s raro! &iquest;De qu&eacute; te conoc&iacute;a?<br>
+                Mi padre suspira. Alguien grita mi nombre.<br>
+                &ndash;&iexcl;Carla!<br>
+                &ndash;Creo que ese ni&ntilde;o te est&aacute; llamando &ndash;dice mi padre.<br>
+                Es Mariano, el nuevo. &iexcl;Lo que faltaba! Hago como que no lo veo y sigo andando.<br>
+                &ndash;No mires. Es el rarito de la clase. &iquest;Me explicas qui&eacute;n era ese?<br>
+                &ndash;&iquest;C&oacute;mo que rarito? &ndash;Mi padre se queda parado&ndash;. &iquest;Por qu&eacute; le llamas as&iacute;?<br>
+                &ndash;Yo qu&eacute; s&eacute;&#8230; &iexcl;Por todo!<br>
+                &ndash;&iquest;Qu&eacute; es todo? Dame un ejemplo.<br>
+                Le podr&iacute;a dar montones de ejemplos: que a veces habla solo en voz baja; que se abrocha hasta el &uacute;ltimo bot&oacute;n de la camisa; que usa camisa; que corre de una manera rid&iacute;cula&#8230; Pero lo que me sale es:<br>
+                &ndash;&iexcl;Usa paraguas!</p>
+
+            </i><p>
+                El padre de Carla la lleva cada ma&ntilde;ana al colegio en su taxi. Van los dos de lo m&aacute;s bien, pele&aacute;ndose por elegir la m&uacute;sica y cantando a grito pelado. Hasta que su padre se empe&ntilde;a en llevar tambi&eacute;n a Mariano, el chico m&aacute;s raro de la clase. Mariano da muchos sorbetones, habla solo, en voz baja y usa paraguas. Adem&aacute;s, le roba la atenci&oacute;n de su padre y arruina su reputaci&oacute;n de ni&ntilde;a normal en el cole. Esta historia va de eso y tambi&eacute;n de amigos nuevos y de enemigos viejos, de remordimientos, torniquetes, monopatines, violines y helados de tiramis&uacute;.<br>
+            </p>
+        </div>
     </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;Hoy ha llegado la nueva vecina del &aacute;tico.<br>
- Me ha bastado echarle un vistazo para saberlo. &iexcl;Es bruja! S&iacute;, bruja, te apuesto lo que quieras...&rdquo;<br></i>
-<br>
- Lo malo es que s&oacute;lo nuestra hero&iacute;na se ha dado cuenta. De modo que sus padres y vecinos no resultar&aacute;n nada comprensivos cuando intente salvarlos de la m&aacute;s terrible de las brujas.</p> 
+
+    <div id="abuelopage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/abuelo.jpg">
+            <div class="titulo">Mi abuelo el Presunto</div>
+            <ul class="detalles-libro">
+            <li>Edeb&eacute, Tuc&aacuten verde</li>
+            <li>Premio Edeb&eacute 2004</li>
+            <li>A partir de 10 a&ntildeos</li>
+            <li>Ilustrado por Francesc Rovira</li>
+            <li>118 p&aacutegs.</li>
+            <li>Traducido al catal&aacuten, gallego, euskera, valenciano, chino y coreano</ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;-&iexcl;Oh, cielos, tened piedad de m&iacute;! &ndash;gime mam&aacute;.<br>
+    Pone la cacerola al fuego y se desmaya.<br>
+    No es que mi madre sea muy desgraciada. Es que est&aacute; ensayando una obra de teatro.<br>
+    Se pone de pie, destapa la cacerola y sale un olor que no me gusta nada.<br>
+    -&iquest;Qu&eacute; hay de cena? &ndash;pregunto.<br>
+    -Pur&eacute; de verduras.<br>
+    -&iexcl;Puag! &iexcl;Cielos, tened piedad de m&iacute;! &ndash;digo arrugando la nariz.<br>
+    Y entonces llaman a la puerta... Es un se&ntilde;or viejo con una maleta. Me mira muy fijamente y dice bajito:<br>
+    -Hola Carmen.<br>
+    -No soy Carmen, soy Lola. &iquest;Y t&uacute; qui&eacute;n eres? &ndash;pregunto.<br>
+    -Soy tu abuelo &ndash;dice &eacute;l.<br>
+    -Yo no tengo ning&uacute;n abuelo.<br>
+    -&iquest;Qui&eacute;n es? &ndash;pregunta mam&aacute; desde la cocina.<br>
+    -Uno que dice que es mi abuelo.<br>
+    Mam&aacute; se asoma, ve al se&ntilde;or y se queda pasmada, sin decir nada. Igual que una vez en el teatro, que se olvid&oacute; de su papel. El se&ntilde;or tampoco habla ni se mueve. Y as&iacute; un buen rato, como si se hubiera parado el mundo. Tardo bastante en atreverme a decir:<br>
+    -Huele a quemado.<br>
+    -&iexcl;El pur&eacute;! &ndash;grita mam&aacute; echando a correr hacia la cocina.&rdquo;<br>
+    <br></i>
+    Gracias a ese abuelo reci&eacute;n adquirido, Lola no come pur&eacute; esa noche. Pero eso es lo &uacute;nico bueno que parece traer esa visita. El hombre no resulta precisamente un abuelo ejemplar. Peor que eso: Lola empieza pronto a tener graves sospechas acerca de &eacute;l&#8230;</p> 
+        </div>
     </div>
-</div>
-<div id="rollitospage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/rollitos.jpg">
-        <div class="titulo">Rollitos de primavera</div>
-        <ul class="detalles-libro">
-        <li>Edeb&eacute, Tuc&aacuten naranja</li>
-        <li>A partir de 8 a&ntildeos</li>
-        <li>Traducido al franc&eacute;s</li>
-        <li>Ilustrado por la autora</li>
-        <li>168 p&aacutegs.</li></ul>
+    <div id="cuchicuchispage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/cuchicuchis.jpg">
+            <div class="titulo">La noche de los cuchicuchis</div>
+            <ul class="detalles-libro">
+            <li>Edeb&eacute, Tuc&aacuten naranja</li>
+            <li>A partir de 8 a&ntildeos</li>
+            <li>Ilustrado por &Aacutengel Lupia&ntildeez</li>
+            <li>130 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;T&iacute;a Agustina no nos hace las camas, y nosotros tampoco. Por eso cuando nos acostamos siempre se nos salen los pies.<br>
+    -&iquest;Me remetes, Javi? &ndash;dice Tina.<br>
+    Y yo la remeto porque le acabo de prometer a mi madre por tel&eacute;fono que voy a ser un chico mayor y responsable.<br>
+    -&iquest;Me traes agua, Javi?<br>
+    Y yo se la traigo.<br>
+    -&iquest;Me cuentas un cuento?<br>
+    Ah&iacute; ya se me est&aacute;n acabando las ganas de ser mayor y responsable. <br>
+    -A ver&#8230; Esto era una vez una ni&ntilde;a que ten&iacute;a miedo de la oscuridad. Lo que no sab&iacute;a esa ni&ntilde;a es que cerca de su casa viv&iacute;a un bicho horrible y la comida favorita de ese bicho eran las ni&ntilde;as que ten&iacute;an miedo de la oscuridad. Cuando las ni&ntilde;as est&aacute;n asustadas, se ponen a oler de una manera especial&#8230;<br>
+    -&iquest;Y los ni&ntilde;os? &ndash;pregunta Tina.<br>
+    -Los ni&ntilde;os no, s&oacute;lo las ni&ntilde;as. Y no me interrumpas&#8230; Resulta que esa noche la ni&ntilde;a se hab&iacute;a olvidado de cerrar la ventana&#8230;<br>
+    -&iexcl;No me gusta ese cuenta, Javi! Cu&eacute;ntame otro.<br>
+    Tina se tapa son la s&aacute;bana hasta los ojos, as&iacute; que se le salen otra vez los pies. Lo que es yo, no se los pienso remeter&#8230;&rdquo;<br>
+    <br></i>
+    T&iacute;a Agustina no es precisamente una experta en cuidar ni&ntilde;os. Pero Javier y Tina tienen que vivir con ella mientras su padre est&aacute; en el hospital. Los dos hermanos se aburren y se pelean, mientras esperan ansiosos noticias sobre su padre. Los d&iacute;as se les hacen largos y pesados. Pero&#8230; &iquest;y las noches?</p> 
+        </div>
     </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;Yo vivo en la calle de la Magnolia n&uacute;mero 7, piso tercero B. Nos mudamos hace solo dos meses y mi casa es muy nueva. Est&aacute; rodeada por un muro y tiene un jard&iacute;n privado y unos columpios privados, solo para los que vivimos en el n&uacute;mero 7 de la calle de la Magnolia.<br>
- La ni&ntilde;a no vive en nuestra casa. Su padre tiene una tienda en la esquina que se llama el Chollo Chino. En la tienda esa hay de todo y nunca cierra. La ni&ntilde;a se pasa horas sentada en el escal&oacute;n de la puerta del Chollo Chino. Desde all&iacute; vigila el port&oacute;n de nuestra casa. Y, en cuanto alguien entra o sale, se cuela en el jard&iacute;n.&rdquo;<br><br></i>La primera vez, Julio y sus amigos de Magnolia 7 aceptan a la ni&ntilde;a china en sus juegos. Hasta que aprenden que no tiene derecho a entrar en su jard&iacute;n. &iexcl;Estar&iacute;a bueno! Por algo es una propiedad privada.<br>
-Pero la chinita no entiende de propiedades privadas. Por no entender, ni siquiera parece entender el espa&ntilde;ol. Aqu&iacute; va a haber l&iacute;o.</p> 
+    <div id="papaspage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/papas.jpg">
+            <div class="titulo">La tierra de las papas</div>
+            <ul class="detalles-libro">
+            <li>SM, Barco de Vapor</li>
+            <li>Serie roja</li>
+            <li>A partir de 12 a&ntildeos</li>
+            <li>Existe traducci&oacuten al italiano, alem&aacuten y tailand&eacutes
+            <li>142 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;Mar&iacute;a, &iquest;qu&eacute; te parecer&iacute;a si nos fu&eacute;semos a vivir un tiempo al extranjero?<br>
+    Eso dijo Padre, y ah&iacute; empez&oacute; todo. Las cosas inesperadas siempren ocurren as&iacute;, cuando una menos las espera. Creo que acabo de decir una bobada. A ver si me explico. Quiero decir que las cosas gordas, esas que cambian la vida de una, siempre la pillan desprevenida, a traici&oacute;n.<br>
+    Recuerdo que cuando Padre me dio la noticia, yo estaba tan tranquila, hojeando distra&iacute;da el peri&oacute;dico:<br>
+    &ldquo;Lluvias torrenciales en Levante&#8230;&rdquo;<br>
+    -Vamos a ir a Bolivia &ndash;dijo Padre.<br>
+    No dije nada. Clav&eacute; los ojos en el peri&oacute;dico y repet&iacute; para mis adentros una y otra vez: &ldquo;Lluvias torrenciales en Levante lluvias torrenciales en Levante lluvias torrenciales&#8230;&rdquo; Como si as&iacute; pudiera hacer que el tiempo volviera atr&aacute;s unos segundos y Padre no hubiera dicho nunca aquello&rdquo;.<br>
+    <br></i>
+    No le va a resultar f&aacute;cil, pero Mar&iacute;a aprender&aacute; a conocer y a querer a Bolivia y lo har&aacute; a trav&eacute;s de la cholita Casilda, en una relaci&oacute;n en que las patatas son muy importantes.
+    </p> 
+        </div>
     </div>
-</div>
-<div id="chispage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/chis.jpg">
-        <div class="titulo">Chis y Garab&iacutes</div>
-        <ul class="detalles-libro">
-        <li>SM, Barco de Vapor</li>
-        <li>Serie naranja</li>
-        <li>A partir de 8 a&ntildeos</li>
-        <li>Ilustrado por Ana L&oacutepez Escriv&aacute
-        <li>120 p&aacutegs.</li></ul>
+    <div id="sombrapage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/sombra.jpg">
+            <div class="titulo">Sombra</div>
+            <ul class="detalles-libro">
+            <li>SM, Barco de Vapor</li>
+            <li>Serie roja</li>
+            <li>Premio El Barco de Vapor 2004</li>
+            <li>A partir de 10 a&ntildeos</li>
+            <li>188 p&aacutegs.</li>
+            <li>Traducido al italiano</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;-&iexcl;Caray, Nulo! &iexcl;C&oacute;mo apestas hoy! &ndash;exclam&oacute; Miaja.<br>
+    -Ya sabes c&oacute;mo es mi padre. Me ha frotado con esti&eacute;rcol &ndash;explic&oacute; Nulo-. Dice que trae suerte.<br>
+    -&iexcl;Suerte! &iexcl;Ja! En el p&aacute;ramo no existe la suerte.<br>
+    -Anda, no te quejes, que est&aacute; levantando la niebla. Y seguro que es gracias al esti&eacute;rcol que llevo encima. Parece que tendremos un boni&#8230; que el d&iacute;a no ser&aacute; feo, vaya.<br>
+    -&iquest;Que no ser&aacute; feo? &ndash;se burl&oacute; Miaja-. En Sombra no hay nada que no sea feo. &iexcl;Mira a tu alrededor!<br>
+    &#8230;<br>
+    -&iquest;No son&#8230;? &iquest;No son no-feas las luces? &ndash;dijo Nulo.<br>
+    -Son tristes &ndash;suspir&oacute; Miaja.<br>
+    -&iexcl;El Bosque! &ndash;exclam&oacute; Nulo-. &iexcl;No me dir&aacute;s que es feo el Bosque!<br>
+    -Eso no cuenta &ndash;gru&ntilde;&oacute; Miaja-. El Bosque es de ellos.<br>
+    -&iexcl;Mira la estrella de la ma&ntilde;ana! &ndash;insisti&oacute; Nulo-. Esa brilla para todos. &iquest;A que no es fea?<br>
+    -No es fea, pero es de todos &ndash;replic&oacute; esta vez Miaja.<br>
+    -&iexcl;Jo! Que si es de ellos, que si es de todos&#8230; Yo no s&eacute; qu&eacute; te pasa. &Uacute;ltimamente nunca est&aacute;s contenta...<br>
+    Los dos ni&ntilde;os empezaron a descender por la colina, moh&iacute;nos y en silencio.<br>
+    -Ya s&eacute; que no est&aacute; bien&#8230; -murmur&oacute; al fin Miaja-. Pero yo quiero algo bonito m&iacute;o, Nulo.<br>
+    -&iexcl;Miaja! &iexcl;No digas esa palabra! Sabes que es gafe.<br>
+    Nulo escupi&oacute; por encima de su hombro, para conjurar la mala suerte que la palabra bonito pod&iacute;a traerles.&rdquo;<br>
+    <br></i>
+    Los sombrinos han aprendido a temer la belleza, porque todo lo que es hermoso acaba en el Castillo, ese lugar del que nadie ha regresado. Aun as&iacute;, Miaja se atreve a ocultar algo hermoso. Cuando su secreto sea descubierto, su vida dar&aacute; un vuelco, y con ella la de toda Sombra.
+    </p> 
+        </div>
     </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;En alg&uacute;n punto o, mejor dicho, en dos puntos del inmenso oc&eacute;ano Atl&eacute;tico, no lejos de las pen&iacute;nsulas de Oste y Moste, se encuentran las min&uacute;sculas islas de Chis y Garab&iacute;s, donde transcurre esta historia.<br>
-La forma m&aacute;s f&aacute;cil de llegar a Chis y Garab&iacute;s, y la &uacute;nica que conozco, es por casualidad. Por casualidad llegu&eacute; yo un d&iacute;a. Pero otro d&iacute;a me march&eacute;, tambi&eacute;n por casualidad, y ya no he sabido regresar.<br>
- Durante el tiempo que estuve entre los chisinos y los garabisinos, me contaron esta historia&#8230;&rdquo;<br><br></i>
-&iquest;Que qu&eacute; historia? Pues la historia de lo que pas&oacute; en las dos islas cuando La Nube de los Jueves decidi&oacute; un buen d&iacute;a (jueves) dejar de llover en Garab&iacute;s, ocasionando un mont&oacute;n de problemas.</p> 
+    <div id="pollospage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/pollos.jpg">
+            <div class="titulo">Pollos, pepinos y pitufos</div>
+            <ul class="detalles-libro">
+            <li>SM, Barco de Vapor</li>
+            <li>Serie roja</li>
+            <li>A partir de 12 a&ntildeos</li>
+            <li>155 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>-&iexcl;Bol&iacute;var! &ndash;grita Alicia-. &iquest;D&oacute;nde est&aacute;n tus gafas de sol?<br>
+    -No&#8230; No tengo.<br>
+    -&iquest;A qui&eacute;n se le ocurre venir a esquiar sin gafas de sol? La reverberaci&oacute;n del sol en la nieve es fatal para los ojos. Te vas a agarrar una conjuntivitis de no te menees&#8230; En el descanso te me vas a la tienda que hay junto al bar y te compras unas.<br>
+    Bol&iacute;var se pasa un buen rato dando vueltas al expositor de las gafas y consultando una y otra vez los precios, como si pretendiera hacerlos bajar a fuerza de marear las etiquetas. Pero los precios no bajan: veinte euros las m&aacute;s baratas. Su mam&aacute; le ha dado diez, y solo para emergencias. &iquest;Qu&eacute; hacer? Si el Desmu estuviera aqu&iacute;, no lo dudar&iacute;a. Pero &eacute;l no es el Desmu. Su coraz&oacute;n se lanza a galopar mientras las gafas giran cada vez m&aacute;s deprisa ante sus ojos. Mira de reojo a la dependienta y ve que ella a su vez no le quita la vista de encima. Su presencia en la tienda se ha hecho sospechosa por lo larga, ya es imposible llevarse unas gafas sin ser visto. &ldquo;Hay que ser pilas. Si dudas, te friegas&rdquo;, eso sol&iacute;a decir el Desmuelado, y ten&iacute;a raz&oacute;n. Bol&iacute;var da un &uacute;ltimo empuj&oacute;n furioso al expositor y se marcha; la dependienta grita algo sobre buenos modales a sus espaldas.&rdquo;<br>
+    <br>
+    </i>
+    Bolivar es un chico inmigrante que acaba de llegar a Espa&ntilde;a. Sus problemas de adaptaci&oacute;n se hacen patentes cuando le invitan a pasar una semana en la nieve haciendo un cursillo de esqu&iacute;. En las pistas se encuentra en su salsa, y pronto pasa de ser un pollo (novato) a ser el m&aacute;s temerario de los pitufos, los esquiadores experimentados. L&aacute;stima que, en las relaciones con sus compa&ntilde;eros, siga sinti&eacute;ndose como el &uacute;ltimo de los pollos&#8230;<br>
+    </p> 
+        </div>
     </div>
-</div>
-<div id="maripopispage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/maripopis.webp">
-        <div class="titulo">Maripopis</div>
-        <ul class="detalles-libro">
+    <div id="aurapage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/aura.jpg">
+            <div class="titulo">Tengo el aura un poco gris</div>
+            <ul class="detalles-libro">
+            <li>SM, Barco de Vapor</li>
+            <li>Serie roja</li>
+            <li>A partir de 12 a&ntildeos</li>
+            <li>201 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;Vale, soy un t&iacute;o raro. No te lo quer&iacute;a decir, pero igual supongo que te est&aacute;s dando cuenta. Desde fuera no se me nota demasiado, pero te metes en mi cabeza y alucinas. Bueno, o no tanto. A lo mejor todos somos raros, no s&eacute;. A lo mejor t&uacute; tambi&eacute;n tienes ideas catastr&oacute;ficas y angustias vitales, y a veces te parece que el tiempo se ha rayado, como me pasa a m&iacute;. A lo mejor tambi&eacute;n te dan grima los botones y las etiquetas, sobre todo las adhesivas, y las tapas de yogur&#8230; O eres raro de otra manera. Dice mi abuela que cada uno tiene lo suyo y que en todas partes cuecen habas. Me gustar&iacute;a ser lo bastante amigo de alguien como para que me dejara ver las habas de su cabeza, por aquello de comparar. A lo mejor as&iacute; me quedaba m&aacute;s tranquilo. Pero yo mis habas hace tiempo que no se las ense&ntilde;o a nadie.&rdquo;<br>
+    <br></i>
+    Gen se encuentra en una ciudad nueva y no especialmente acogedora, lidiando con sus rarezas y con las de su madre, una entusiasta del yoga que se empe&ntilde;a en enderezar el aura a quien se le ponga por delante.</p> 
+        </div>
+    </div>
+    <div id="grutapage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/gruta.jpg">
+            <div class="titulo">La gruta de las escorias</div>
+            <ul class="detalles-libro">
+            <li>SM, Barco de Vapor</li>
+            <li>Serie roja</li>
+            <li>A partir de 12 a&ntildeos</li>
+            <li>232 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;&#8230; Doce horas despu&eacute;s estaba en el aeropuerto de la capital de B&eacute;sibes, aplastada por el calor e incordiada por las moscas. El aire estaba lleno de olores tan nuevos para ella,que no pod&iacute;a decir si le agradaban o le asqueaban, aunque m&aacute;s bien se inclinaba por la segunda opci&oacute;n. Hab&iacute;a soldados armados por todas partes. El polic&iacute;a de la aduana examin&oacute; con recelo sus pasaportes besibeses, como si no se creyera que pertenecieran a aquel pa&iacute;s. Y, en efecto, no se parec&iacute;an a la gente que las rodeaba. Sutsru era la &uacute;nica mujer con el pelo corto. Eva era la &uacute;nica chica con pantalones. Seguramente por eso, a Fatotu le cost&oacute; muy poco reconocerlas. Se acerc&oacute; a ellas y se apoder&oacute; de sus maletas, como si tuviera cuatro manos, y aun le sobr&oacute; ota para espantar a los chiquillos harapientos que los siguieron hasta el aparcamiento pidiendo unas moneditas, por caridad&#8230;&rdquo;<br>
+    <br></i>
+    La madre de Eva vuelve a su tierra natal, B&eacute;sibes, para hacer un estudio de viabilidad en una mina en medio del desierto. Eva la acompa&ntilde;a y cae de lleno en un mundo primitivo, regido por la superstici&oacute;n y poblado de espectros.</p> 
+        </div>
+    </div>
+    <div id="companiaspage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/companias.jpg">
+            <div class="titulo">Malas compa&ntilde&iacuteas</div>
+            <ul class="detalles-libro">
+            <li>Edeb&eacute, colecci&oacuten Periscopio</li>
+            <li>224 p&aacutegs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;A la hora del recreo, la nueva sale la &uacute;ltima al patio, andando despacio y con una desgana as&iacute; como elegante, un poco como andan los leones del zoo en sus jaulas. Se sienta en las escaleras y se pone a mascar chicle mirando a su alrededor con cara de asco distra&iacute;do. O sea, como si no le gustara lo que ve, pero tampoco le pareciera lo bastante importante como para prestarle atenci&oacute;n.<br>
+    A las chicas nos ofende que pase tan descaradamente de nosotras y, como castigo, la ignoramos con todas nuestras ganas. <br>
+    A los chicos que juegan al f&uacute;tbol se les va el bal&oacute;n a cada rato hacia donde est&aacute; ella. Qu&eacute; casualidad. Eso hace que Soledad nos guste menos todav&iacute;a, porque a las chicas no nos suelen gustar las chicas que gustan demasiado a los chicos, no s&eacute; si me explico. Ah&iacute; ya no nos sale ignorarla m&aacute;s. Hacemos un corro y la despellejamos con nuestras lenguas viperinas&#8230;&rdquo;<br>
+    <br></i>
+    &ldquo;La Nueva&rdquo; llega al colegio pisando fuerte: Soledad es rebelde, provocadora, arisca, atractiva. Viene envuelta en una aureola de tragedia que hace que se le perdonen todas las provocaciones. Silvia observa con curiosidad la revoluci&oacute;n que la nueva provoca en alumnos y profesores.<br>
+    Claro que, para revoluciones, la que le espera a la propia Silvia. Pero eso ella todav&iacute;a no lo sabe&#8230;</p> 
+        </div>
+    </div>
+    <div id="gallipage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/galli.jpg">
+            <div class="titulo">El Gallimimus</div>
+            <ul class="detalles-libro">
+            <li>VIII Premio de Literatura Infantil Ciudad de M&aacute;laga</li>
+            <li>Anaya, 2017</li>
+            <li>A partir de 9 a&ntilde;os</li>
+            <li>Ilustrado por Eugenia &Aacute;balos</li>
+            <li>138 p&aacute;gs.</li>
+            <li>Traducido al coreano</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>&ldquo;Nadie ha invitado a Aila a entrar en la casa, pero ah&iacute; est&aacute; en la cocina, frente al plato de perrunillas a&uacute;n tibias. A Carlos le encantan las perrunillas. Quiz&aacute; le gustan tanto porque solo las come cuando viene a Alcamilla. Muerde una con ganas. Aila est&aacute; a punto de hacer lo mismo, pero en el &uacute;ltimo momento aparta la galleta de su boca con un gesto de repugnancia.<br>
+    -&iquest;Por qu&eacute; se llaman perrunillas? &ndash;pregunta recelosa.<br>
+    -Pues... de alguna manera se tienen que llamar, ni&ntilde;a &ndash;responde Hortensia.<br>
+    -&iquest;Tienen carne de perro?<br>
+    -&iexcl;No! &iexcl;Qu&eacute; cosas dices!<br>
+    -&iexcl;Ah! Yo no como perro &iquest;sabes? Ni perro ni cerdo.<br>
+    Se zampa la galleta de un bocado. Despu&eacute;s se come otra, y otra, y otra. Carlos se pone a comer m&aacute;s deprisa para no quedarse atr&aacute;s.<br>
+    -&iexcl;Despacio! &iexcl;Hay que masticar! A ver si os va a dar un entripado.<br>
+    Los entripados. Esa es otra de las cosas que asustan a Hortensia.<br>
+    -&iexcl;Carlitos, hijo! Que luego no te queda sitio para la comida &ndash;le advierte.<br>
+    -&iquest;Cu&aacute;ndo es la comida? &ndash;pregunta Aila.<br>
+    -Falta gratinar los macarrones.<br>
+    -Si quieres me puedo quedar. Si no hay perro ni cerdo.<br>
+    Hortensia mira a Aila arrugando el entrecejo. Abre la boca, seguramente para contarle lo que piensa de las cr&iacute;as descaradas y sin modales. Pero no llega a decirle nada.<br>
+    -&iquest;Y tu qu&eacute; haces con ese bendito tarugo? &ndash;le dice en cambio a Carlos.<br>
+    El chico se da cuenta de que a&uacute;n carga el le&ntilde;o bajo el brazo.<br>
+    -Anda, ll&eacute;valo a la le&ntilde;era, majo. Y ya que est&aacute; aqu&iacute; esta...<br>
+    -Aila.<br>
+    -Ya que est&aacute; Aila, que te ayude con la le&ntilde;a. Y mientras se hace la hora de comer.&rdquo;<br>
+    </i><br> &iexcl;Vaya birria de verano! Carlos tiene que pasarlo en Alcamilla, un pueblo aburrido donde todo el mundo es viejo. Menos mal que tropieza con Aila. Aila vive en un autob&uacute;s abandonado y es un fen&oacute;meno trepando &aacute;rboles y
+    comiendo perrunillas. Carlos y Aila no tardan en descubrir que hay un animal
+    misterioso y escalofriante escondido en el bosque. Mientras, los mayores viven
+    preocupados por un peligro muy distinto. De modo que nadie, ni chicos ni grandes,
+    est&aacute; tranquilo en Alcamilla.</p> 
+        </div>
+    </div>
+
+    <div id="parispage" class="popup">
+        <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
+        <div class="top"><img src="images/leer/covers/paris.jpg">
+            <div class="titulo">Un t&iacute;o en Par&iacute;s</div>
+            <ul class="detalles-libro">
             <li>Edeb&eacute;, Tuc&aacute;n verde</li>
             <li>A partir de 10 a&ntilde;os</li>
             <li>Ilustrado por Paloma Bordons</li>
-            <li>142 p&aacute;gs.</li>
-        </ul>
+            <li>215 p&aacute;gs.</li></ul>
+        </div>
+        <div class="bottom">
+            <p>El libro dice&#8230;<br><br><i>
+    &ldquo;Manuel cruz&oacute; el umbral tras la mujerona de las cejas pintadas y la sigui&oacute; casi a tientas por una sucesi&oacute;n de escaleras y pasillos apenas iluminados por peque&ntilde;as l&aacute;mparas de pared. Acabaron en una sala igualmente oscura. El chico supuso que se trataba de un dormitorio colectivo. Hab&iacute;a seis literas dispuestas en fila, ocupadas por bultos que parec&iacute;an dormir. La se&ntilde;ora le condujo hasta la &uacute;nica cama libre, le tendi&oacute; un rop&oacute;n blanco y le orden&oacute; con gestos que se acostara. <br>
+    -&iquest;No voy a ver a mi t&iacute;o? &ndash;pregunt&oacute; Manuel. <br>
+    La mujer se puso un dedo en los labios fruncidos. <br>
+    -Tengo un poquito de hambre &ndash;continu&oacute; &eacute;l en un susurro-. Y necesito un cuarto de ba&ntilde;o, hace horas que&#8230;<br>
+    -&iexcl;Chist!<br>
+    Una andanada de saliva le reg&oacute; la cara. Se protegi&oacute; con las manos y, cuando se destap&oacute;, la Cejas Pintadas hab&iacute;a desaparecido. Se sent&oacute; apesadumbrado en la cama. Nada m&aacute;s hacerlo, el dormitorio cobr&oacute; vida. Todos los bultos saltaron a la vez de sus literas y rodearon a Manuel que, espantado, en un primer momento los tom&oacute; por fantasmas. <br>
+    No eran fantasmas, sino ni&ntilde;as vestidas con largos camisones blancos. Aunque casi mejor que hubieran sido fantasmas. &iexcl;Menuda panda de salvajes! Le tocaban, le pellizcaban, le hablaban, posiblemente en franc&eacute;s, se re&iacute;an. Una abri&oacute; la maleta de Manuel y un momento despu&eacute;s toda su ropa volaba por los aires. S&oacute;lo que no era su ropa. Manuel se dio cuenta cuando un vestido estampado aterriz&oacute; sobre su cabeza.<br>
+    -&iquest;Sab&eacute;is d&oacute;nde est&aacute; mi t&iacute;o? &iquest;Conoc&eacute;is a mi t&iacute;o Manolo? <br>
+    Las chicas le miraron un momento, como intrigadas. Luego se rieron con m&aacute;s ganas y siguieron revolviendo en la maleta. S&oacute;lo pararon cuando una de ellas, que estaba de guardia junto a la puerta, avis&oacute; al resto con gestos fren&eacute;ticos. La Cejas Pintadas se asom&oacute; un instante despu&eacute;s, pero para entonces todas estaban en sus camas arropadas hasta la nariz. La mujer murmur&oacute; entre dientes una amenaza que Manuel se alegr&oacute; de no entender. <br>
+    Esta vez, cuando se march&oacute;, s&oacute;lo hubo algunas risitas contenidas. Manuel, por su parte, ten&iacute;a que contener las ganas de llorar. Y tambi&eacute;n otra cosa. Murmur&oacute; con los dientes apretados: <br>
+    -&iquest;Alguien me puede decir d&oacute;nde est&aacute; el ba&ntilde;o?<br>
+    -La puerta del fondo &ndash;respondi&oacute; una vocecita.<br>
+    -&iexcl;Por fin alguien que habla en espa&ntilde;ol! &ndash;suspir&oacute; aliviado-. &iquest;T&uacute; sabes d&oacute;nde est&aacute; mi&#8230;<br>
+    -&iexcl;Chist! M&aacute;s vale que te calles.<br>
+    -&iquest;Conoces a mi...?<br>
+    -Ma&ntilde;ana hablamos &ndash;murmur&oacute; la ni&ntilde;a.<br>
+    Manuel no pudo sacarle una palabra m&aacute;s. Bueno, al menos ahora podr&iacute;a hacer pis. Empuj&oacute; la puerta que le hab&iacute;a sido indicada y busc&oacute; a tientas el interruptor de la luz. El fluorescente se encendi&oacute; con un par de chispazos que le cegaron moment&aacute;neamente. Cuando se habitu&oacute; a la luz, vio su imagen reflejada en un espejo. Se llev&oacute; la mano al pelo, horrorizado. Llevaba puesta la diadema de Luisa, con su rid&iacute;culo floripondio de pl&aacute;stico. Se la quit&oacute; de un manotazo, con el rostro arrebolado de verg&uuml;enza. <br>
+    Al hacerlo not&oacute; que se le aliviaba ese dolor de cabeza que sent&iacute;a desde hac&iacute;a horas.<br>
+    &ldquo;Algo es algo&rdquo;, se dijo. Desde peque&ntilde;ito siempre hab&iacute;a sabido apreciar el lado positivo de las cosas&rdquo;.</i><br>
+    <br>
+    Manuel viaja a Paris para pasar el verano con su t&iacute;o Manolo, un exitoso pintor. Sin saber por qu&eacute;, acaba atrapado en una siniestra instituci&oacute;n donde nadie entiende su idioma y, para colmo, le toman por una chica. <br>
+    Decidido a escapar, tendr&aacute; como aliadas a once de sus nuevas compa&ntilde;eras. Los Doce formar&aacute;n un disparatado grupo de rebeldes y tratar&aacute;n de llegar a casa de t&iacute;o Manolo cruzando Francia y huyendo de sus perseguidores.<br>
     </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;</p>
-        <p><i>
-            Hay cola en la helader&iacute;a nueva.<br>
-            &ldquo;Oferta de apertura: dos helados por el precio de uno&rdquo;, dice el cartel.<br>
-            Y se ve que todo el barrio se ha enterado.<br>
-            Mientras esperamos, elijo sabor. Estoy dudando entre triple chocolate y chocolate con pepitas de chocolate. Pero al final decido ser atrevida y escojo un gusto muy ex&oacute;tico que suena a japon&eacute;s. <br>
-            &ndash;Yo quiero tiru&#8230; misu &ndash;le pido al vendedor.<br>
-            &ndash;Tiramis&uacute; &ndash;me corrige mi padre&ndash;. &iquest;Nos pone una bola de tiramis&uacute;, por favor? <br>
-            El se&ntilde;or se le queda mirando y dice:<br>
-            &ndash;No.<br>
-            &ndash;&iquest;No tiene de tiramis&uacute;? &iquest;No es ese de ah&iacute;?<br>
-            En vez de contestar, el heladero dice:<br>
-            &ndash;T&uacute; eres Daniel Garrido, &iquest;verdad?<br>
-            &ndash;S&iacute; &ndash;dice mi padre.<br>
-            &ndash;Pues no tengo helado para ti.<br>
-            Mi padre hincha el pecho y me preparo para la que se avecina, porque menudo es mi padre cuando se enfada.<br>
-            &ndash;Pero &iquest;t&uacute; qui&eacute;n te crees que eres&#8230;? &ndash;empieza.<br>
-            &ndash;El Cachalote &ndash;dice el heladero con voz ronca.<br>
-            Se infla al mismo tiempo que mi padre se desinfla. Y ya era grande de antes.<br>
-            &ndash;El helado no es para m&iacute;, es para mi hija &ndash;murmura mi padre&ndash;. Solo es una ni&ntilde;a.<br>
-            &ndash;S&iacute;. Es una pena &ndash;gru&ntilde;e el heladero&ndash;. Es cruel hacer sufrir a los ni&ntilde;os. A ver, &iquest;qui&eacute;n va ahora? &iquest;T&uacute;, rubiales? &iquest;Qu&eacute; te pongo?<br>
-            Se pone a servir al que nos sigue en la fila y no vuelve a mirarnos.<br>
-            Mi padre y yo salimos de la tienda sin helado. Yo estoy muy decepcionada por dos razones:<br>
-            Una: que alguien ha tratado mal a mi padre y &eacute;l se ha dejado.<br>
-            Dos: que me he quedado sin helado de timisar&uacute;.<br>
-            &ndash;De todos modos hace fr&iacute;o, no apetece tomar helado &ndash;dice mi padre&ndash;. &iexcl;Mira! Si hasta parece que va a llover.<br>
-            &ndash;No va a llover para nada &ndash;refunfu&ntilde;o&ndash;. &iexcl;Qu&eacute; se&ntilde;or m&aacute;s raro! &iquest;De qu&eacute; te conoc&iacute;a?<br>
-            Mi padre suspira. Alguien grita mi nombre.<br>
-            &ndash;&iexcl;Carla!<br>
-            &ndash;Creo que ese ni&ntilde;o te est&aacute; llamando &ndash;dice mi padre.<br>
-            Es Mariano, el nuevo. &iexcl;Lo que faltaba! Hago como que no lo veo y sigo andando.<br>
-            &ndash;No mires. Es el rarito de la clase. &iquest;Me explicas qui&eacute;n era ese?<br>
-            &ndash;&iquest;C&oacute;mo que rarito? &ndash;Mi padre se queda parado&ndash;. &iquest;Por qu&eacute; le llamas as&iacute;?<br>
-            &ndash;Yo qu&eacute; s&eacute;&#8230; &iexcl;Por todo!<br>
-            &ndash;&iquest;Qu&eacute; es todo? Dame un ejemplo.<br>
-            Le podr&iacute;a dar montones de ejemplos: que a veces habla solo en voz baja; que se abrocha hasta el &uacute;ltimo bot&oacute;n de la camisa; que usa camisa; que corre de una manera rid&iacute;cula&#8230; Pero lo que me sale es:<br>
-            &ndash;&iexcl;Usa paraguas!</p>
-
-        </i><p>
-            El padre de Carla la lleva cada ma&ntilde;ana al colegio en su taxi. Van los dos de lo m&aacute;s bien, pele&aacute;ndose por elegir la m&uacute;sica y cantando a grito pelado. Hasta que su padre se empe&ntilde;a en llevar tambi&eacute;n a Mariano, el chico m&aacute;s raro de la clase. Mariano da muchos sorbetones, habla solo, en voz baja y usa paraguas. Adem&aacute;s, le roba la atenci&oacute;n de su padre y arruina su reputaci&oacute;n de ni&ntilde;a normal en el cole. Esta historia va de eso y tambi&eacute;n de amigos nuevos y de enemigos viejos, de remordimientos, torniquetes, monopatines, violines y helados de tiramis&uacute;.<br>
-        </p>
     </div>
-</div>
-
-<div id="abuelopage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/abuelo.jpg">
-        <div class="titulo">Mi abuelo el presunto</div>
-        <ul class="detalles-libro">
-        <li>Edeb&eacute, Tuc&aacuten verde</li>
-        <li>Premio Edeb&eacute 2004</li>
-        <li>A partir de 10 a&ntildeos</li>
-        <li>Ilustrado por Francesc Rovira</li>
-        <li>118 p&aacutegs.</li>
-        <li>Traducido al catal&aacuten, gallego, euskera, valenciano, chino y coreano</ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;-&iexcl;Oh, cielos, tened piedad de m&iacute;! &ndash;gime mam&aacute;.<br>
- Pone la cacerola al fuego y se desmaya.<br>
- No es que mi madre sea muy desgraciada. Es que est&aacute; ensayando una obra de teatro.<br>
- Se pone de pie, destapa la cacerola y sale un olor que no me gusta nada.<br>
- -&iquest;Qu&eacute; hay de cena? &ndash;pregunto.<br>
- -Pur&eacute; de verduras.<br>
- -&iexcl;Puag! &iexcl;Cielos, tened piedad de m&iacute;! &ndash;digo arrugando la nariz.<br>
- Y entonces llaman a la puerta... Es un se&ntilde;or viejo con una maleta. Me mira muy fijamente y dice bajito:<br>
--Hola Carmen.<br>
--No soy Carmen, soy Lola. &iquest;Y t&uacute; qui&eacute;n eres? &ndash;pregunto.<br>
--Soy tu abuelo &ndash;dice &eacute;l.<br>
--Yo no tengo ning&uacute;n abuelo.<br>
--&iquest;Qui&eacute;n es? &ndash;pregunta mam&aacute; desde la cocina.<br>
--Uno que dice que es mi abuelo.<br>
-Mam&aacute; se asoma, ve al se&ntilde;or y se queda pasmada, sin decir nada. Igual que una vez en el teatro, que se olvid&oacute; de su papel. El se&ntilde;or tampoco habla ni se mueve. Y as&iacute; un buen rato, como si se hubiera parado el mundo. Tardo bastante en atreverme a decir:<br>
--Huele a quemado.<br>
--&iexcl;El pur&eacute;! &ndash;grita mam&aacute; echando a correr hacia la cocina.&rdquo;<br>
-<br></i>
-Gracias a ese abuelo reci&eacute;n adquirido, Lola no come pur&eacute; esa noche. Pero eso es lo &uacute;nico bueno que parece traer esa visita. El hombre no resulta precisamente un abuelo ejemplar. Peor que eso: Lola empieza pronto a tener graves sospechas acerca de &eacute;l&#8230;</p> 
-    </div>
-</div>
-<div id="cuchicuchispage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/cuchicuchis.jpg">
-        <div class="titulo">La noche de los cuchicuchis</div>
-        <ul class="detalles-libro">
-        <li>Edeb&eacute, Tuc&aacuten naranja</li>
-        <li>A partir de 8 a&ntildeos</li>
-        <li>Ilustrado por &Aacutengel Lupia&ntildeez</li>
-        <li>130 p&aacutegs.</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;T&iacute;a Agustina no nos hace las camas, y nosotros tampoco. Por eso cuando nos acostamos siempre se nos salen los pies.<br>
- -&iquest;Me remetes, Javi? &ndash;dice Tina.<br>
- Y yo la remeto porque le acabo de prometer a mi madre por tel&eacute;fono que voy a ser un chico mayor y responsable.<br>
- -&iquest;Me traes agua, Javi?<br>
- Y yo se la traigo.<br>
- -&iquest;Me cuentas un cuento?<br>
- Ah&iacute; ya se me est&aacute;n acabando las ganas de ser mayor y responsable. <br>
- -A ver&#8230; Esto era una vez una ni&ntilde;a que ten&iacute;a miedo de la oscuridad. Lo que no sab&iacute;a esa ni&ntilde;a es que cerca de su casa viv&iacute;a un bicho horrible y la comida favorita de ese bicho eran las ni&ntilde;as que ten&iacute;an miedo de la oscuridad. Cuando las ni&ntilde;as est&aacute;n asustadas, se ponen a oler de una manera especial&#8230;<br>
- -&iquest;Y los ni&ntilde;os? &ndash;pregunta Tina.<br>
- -Los ni&ntilde;os no, s&oacute;lo las ni&ntilde;as. Y no me interrumpas&#8230; Resulta que esa noche la ni&ntilde;a se hab&iacute;a olvidado de cerrar la ventana&#8230;<br>
- -&iexcl;No me gusta ese cuenta, Javi! Cu&eacute;ntame otro.<br>
- Tina se tapa son la s&aacute;bana hasta los ojos, as&iacute; que se le salen otra vez los pies. Lo que es yo, no se los pienso remeter&#8230;&rdquo;<br>
-<br></i>
-T&iacute;a Agustina no es precisamente una experta en cuidar ni&ntilde;os. Pero Javier y Tina tienen que vivir con ella mientras su padre est&aacute; en el hospital. Los dos hermanos se aburren y se pelean, mientras esperan ansiosos noticias sobre su padre. Los d&iacute;as se les hacen largos y pesados. Pero&#8230; &iquest;y las noches?</p> 
-    </div>
-</div>
-<div id="papaspage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/papas.jpg">
-        <div class="titulo">La tierra de las papas</div>
-        <ul class="detalles-libro">
-        <li>SM, Barco de Vapor</li>
-        <li>Serie roja</li>
-        <li>A partir de 12 a&ntildeos</li>
-        <li>Existe traducci&oacuten al italiano, alem&aacuten y tailand&eacutes
-        <li>142 p&aacutegs.</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;Mar&iacute;a, &iquest;qu&eacute; te parecer&iacute;a si nos fu&eacute;semos a vivir un tiempo al extranjero?<br>
- Eso dijo Padre, y ah&iacute; empez&oacute; todo. Las cosas inesperadas siempren ocurren as&iacute;, cuando una menos las espera. Creo que acabo de decir una bobada. A ver si me explico. Quiero decir que las cosas gordas, esas que cambian la vida de una, siempre la pillan desprevenida, a traici&oacute;n.<br>
- Recuerdo que cuando Padre me dio la noticia, yo estaba tan tranquila, hojeando distra&iacute;da el peri&oacute;dico:<br>
- &ldquo;Lluvias torrenciales en Levante&#8230;&rdquo;<br>
- -Vamos a ir a Bolivia &ndash;dijo Padre.<br>
- No dije nada. Clav&eacute; los ojos en el peri&oacute;dico y repet&iacute; para mis adentros una y otra vez: &ldquo;Lluvias torrenciales en Levante lluvias torrenciales en Levante lluvias torrenciales&#8230;&rdquo; Como si as&iacute; pudiera hacer que el tiempo volviera atr&aacute;s unos segundos y Padre no hubiera dicho nunca aquello&rdquo;.<br>
-<br></i>
-No le va a resultar f&aacute;cil, pero Mar&iacute;a aprender&aacute; a conocer y a querer a Bolivia y lo har&aacute; a trav&eacute;s de la cholita Casilda, en una relaci&oacute;n en que las patatas son muy importantes.
-</p> 
-    </div>
-</div>
-<div id="sombrapage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/sombra.jpg">
-        <div class="titulo">Sombra</div>
-        <ul class="detalles-libro">
-        <li>SM, Barco de Vapor</li>
-        <li>Serie roja</li>
-        <li>Premio El Barco de Vapor 2004</li>
-        <li>A partir de 10 a&ntildeos</li>
-        <li>188 p&aacutegs.</li>
-        <li>Traducido al italiano</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;-&iexcl;Caray, Nulo! &iexcl;C&oacute;mo apestas hoy! &ndash;exclam&oacute; Miaja.<br>
- -Ya sabes c&oacute;mo es mi padre. Me ha frotado con esti&eacute;rcol &ndash;explic&oacute; Nulo-. Dice que trae suerte.<br>
- -&iexcl;Suerte! &iexcl;Ja! En el p&aacute;ramo no existe la suerte.<br>
- -Anda, no te quejes, que est&aacute; levantando la niebla. Y seguro que es gracias al esti&eacute;rcol que llevo encima. Parece que tendremos un boni&#8230; que el d&iacute;a no ser&aacute; feo, vaya.<br>
- -&iquest;Que no ser&aacute; feo? &ndash;se burl&oacute; Miaja-. En Sombra no hay nada que no sea feo. &iexcl;Mira a tu alrededor!<br>
- &#8230;<br>
- -&iquest;No son&#8230;? &iquest;No son no-feas las luces? &ndash;dijo Nulo.<br>
- -Son tristes &ndash;suspir&oacute; Miaja.<br>
- -&iexcl;El Bosque! &ndash;exclam&oacute; Nulo-. &iexcl;No me dir&aacute;s que es feo el Bosque!<br>
- -Eso no cuenta &ndash;gru&ntilde;&oacute; Miaja-. El Bosque es de ellos.<br>
- -&iexcl;Mira la estrella de la ma&ntilde;ana! &ndash;insisti&oacute; Nulo-. Esa brilla para todos. &iquest;A que no es fea?<br>
- -No es fea, pero es de todos &ndash;replic&oacute; esta vez Miaja.<br>
- -&iexcl;Jo! Que si es de ellos, que si es de todos&#8230; Yo no s&eacute; qu&eacute; te pasa. &Uacute;ltimamente nunca est&aacute;s contenta...<br>
- Los dos ni&ntilde;os empezaron a descender por la colina, moh&iacute;nos y en silencio.<br>
- -Ya s&eacute; que no est&aacute; bien&#8230; -murmur&oacute; al fin Miaja-. Pero yo quiero algo bonito m&iacute;o, Nulo.<br>
- -&iexcl;Miaja! &iexcl;No digas esa palabra! Sabes que es gafe.<br>
- Nulo escupi&oacute; por encima de su hombro, para conjurar la mala suerte que la palabra bonito pod&iacute;a traerles.&rdquo;<br>
-<br></i>
-Los sombrinos han aprendido a temer la belleza, porque todo lo que es hermoso acaba en el Castillo, ese lugar del que nadie ha regresado. Aun as&iacute;, Miaja se atreve a ocultar algo hermoso. Cuando su secreto sea descubierto, su vida dar&aacute; un vuelco, y con ella la de toda Sombra.
-</p> 
-    </div>
-</div>
-<div id="pollospage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/pollos.jpg">
-        <div class="titulo">Pollos, pepinos y pitufos</div>
-        <ul class="detalles-libro">
-        <li>SM, Barco de Vapor</li>
-        <li>Serie roja</li>
-        <li>A partir de 12 a&ntildeos</li>
-        <li>155 p&aacutegs.</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>-&iexcl;Bol&iacute;var! &ndash;grita Alicia-. &iquest;D&oacute;nde est&aacute;n tus gafas de sol?<br>
--No&#8230; No tengo.<br>
--&iquest;A qui&eacute;n se le ocurre venir a esquiar sin gafas de sol? La reverberaci&oacute;n del sol en la nieve es fatal para los ojos. Te vas a agarrar una conjuntivitis de no te menees&#8230; En el descanso te me vas a la tienda que hay junto al bar y te compras unas.<br>
-Bol&iacute;var se pasa un buen rato dando vueltas al expositor de las gafas y consultando una y otra vez los precios, como si pretendiera hacerlos bajar a fuerza de marear las etiquetas. Pero los precios no bajan: veinte euros las m&aacute;s baratas. Su mam&aacute; le ha dado diez, y solo para emergencias. &iquest;Qu&eacute; hacer? Si el Desmu estuviera aqu&iacute;, no lo dudar&iacute;a. Pero &eacute;l no es el Desmu. Su coraz&oacute;n se lanza a galopar mientras las gafas giran cada vez m&aacute;s deprisa ante sus ojos. Mira de reojo a la dependienta y ve que ella a su vez no le quita la vista de encima. Su presencia en la tienda se ha hecho sospechosa por lo larga, ya es imposible llevarse unas gafas sin ser visto. &ldquo;Hay que ser pilas. Si dudas, te friegas&rdquo;, eso sol&iacute;a decir el Desmuelado, y ten&iacute;a raz&oacute;n. Bol&iacute;var da un &uacute;ltimo empuj&oacute;n furioso al expositor y se marcha; la dependienta grita algo sobre buenos modales a sus espaldas.&rdquo;<br>
-<br>
-</i>
-Bolivar es un chico inmigrante que acaba de llegar a Espa&ntilde;a. Sus problemas de adaptaci&oacute;n se hacen patentes cuando le invitan a pasar una semana en la nieve haciendo un cursillo de esqu&iacute;. En las pistas se encuentra en su salsa, y pronto pasa de ser un pollo (novato) a ser el m&aacute;s temerario de los pitufos, los esquiadores experimentados. L&aacute;stima que, en las relaciones con sus compa&ntilde;eros, siga sinti&eacute;ndose como el &uacute;ltimo de los pollos&#8230;<br>
-</p> 
-    </div>
-</div>
-<div id="aurapage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/aura.jpg">
-        <div class="titulo">Tengo el aura un poco gris</div>
-        <ul class="detalles-libro">
-        <li>SM, Barco de Vapor</li>
-        <li>Serie roja</li>
-        <li>A partir de 12 a&ntildeos</li>
-        <li>201 p&aacutegs.</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;Vale, soy un t&iacute;o raro. No te lo quer&iacute;a decir, pero igual supongo que te est&aacute;s dando cuenta. Desde fuera no se me nota demasiado, pero te metes en mi cabeza y alucinas. Bueno, o no tanto. A lo mejor todos somos raros, no s&eacute;. A lo mejor t&uacute; tambi&eacute;n tienes ideas catastr&oacute;ficas y angustias vitales, y a veces te parece que el tiempo se ha rayado, como me pasa a m&iacute;. A lo mejor tambi&eacute;n te dan grima los botones y las etiquetas, sobre todo las adhesivas, y las tapas de yogur&#8230; O eres raro de otra manera. Dice mi abuela que cada uno tiene lo suyo y que en todas partes cuecen habas. Me gustar&iacute;a ser lo bastante amigo de alguien como para que me dejara ver las habas de su cabeza, por aquello de comparar. A lo mejor as&iacute; me quedaba m&aacute;s tranquilo. Pero yo mis habas hace tiempo que no se las ense&ntilde;o a nadie.&rdquo;<br>
-<br></i>
-Gen se encuentra en una ciudad nueva y no especialmente acogedora, lidiando con sus rarezas y con las de su madre, una entusiasta del yoga que se empe&ntilde;a en enderezar el aura a quien se le ponga por delante.</p> 
-    </div>
-</div>
-<div id="grutapage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/gruta.jpg">
-        <div class="titulo">La gruta de las escorias</div>
-        <ul class="detalles-libro">
-        <li>SM, Barco de Vapor</li>
-        <li>Serie roja</li>
-        <li>A partir de 12 a&ntildeos</li>
-        <li>232 p&aacutegs.</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;&#8230; Doce horas despu&eacute;s estaba en el aeropuerto de la capital de B&eacute;sibes, aplastada por el calor e incordiada por las moscas. El aire estaba lleno de olores tan nuevos para ella,que no pod&iacute;a decir si le agradaban o le asqueaban, aunque m&aacute;s bien se inclinaba por la segunda opci&oacute;n. Hab&iacute;a soldados armados por todas partes. El polic&iacute;a de la aduana examin&oacute; con recelo sus pasaportes besibeses, como si no se creyera que pertenecieran a aquel pa&iacute;s. Y, en efecto, no se parec&iacute;an a la gente que las rodeaba. Sutsru era la &uacute;nica mujer con el pelo corto. Eva era la &uacute;nica chica con pantalones. Seguramente por eso, a Fatotu le cost&oacute; muy poco reconocerlas. Se acerc&oacute; a ellas y se apoder&oacute; de sus maletas, como si tuviera cuatro manos, y aun le sobr&oacute; ota para espantar a los chiquillos harapientos que los siguieron hasta el aparcamiento pidiendo unas moneditas, por caridad&#8230;&rdquo;<br>
-<br></i>
-La madre de Eva vuelve a su tierra natal, B&eacute;sibes, para hacer un estudio de viabilidad en una mina en medio del desierto. Eva la acompa&ntilde;a y cae de lleno en un mundo primitivo, regido por la superstici&oacute;n y poblado de espectros.</p> 
-    </div>
-</div>
-<div id="companiaspage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/companias.jpg">
-        <div class="titulo">Malas compa&ntilde&iacuteas</div>
-        <ul class="detalles-libro">
-        <li>Edeb&eacute, colecci&oacuten Periscopio</li>
-        <li>224 p&aacutegs.</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;A la hora del recreo, la nueva sale la &uacute;ltima al patio, andando despacio y con una desgana as&iacute; como elegante, un poco como andan los leones del zoo en sus jaulas. Se sienta en las escaleras y se pone a mascar chicle mirando a su alrededor con cara de asco distra&iacute;do. O sea, como si no le gustara lo que ve, pero tampoco le pareciera lo bastante importante como para prestarle atenci&oacute;n.<br>
-A las chicas nos ofende que pase tan descaradamente de nosotras y, como castigo, la ignoramos con todas nuestras ganas. <br>
-A los chicos que juegan al f&uacute;tbol se les va el bal&oacute;n a cada rato hacia donde est&aacute; ella. Qu&eacute; casualidad. Eso hace que Soledad nos guste menos todav&iacute;a, porque a las chicas no nos suelen gustar las chicas que gustan demasiado a los chicos, no s&eacute; si me explico. Ah&iacute; ya no nos sale ignorarla m&aacute;s. Hacemos un corro y la despellejamos con nuestras lenguas viperinas&#8230;&rdquo;<br>
-<br></i>
-&ldquo;La Nueva&rdquo; llega al colegio pisando fuerte: Soledad es rebelde, provocadora, arisca, atractiva. Viene envuelta en una aureola de tragedia que hace que se le perdonen todas las provocaciones. Silvia observa con curiosidad la revoluci&oacute;n que la nueva provoca en alumnos y profesores.<br>
-Claro que, para revoluciones, la que le espera a la propia Silvia. Pero eso ella todav&iacute;a no lo sabe&#8230;</p> 
-    </div>
-</div>
-<div id="gallipage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/galli.jpg">
-        <div class="titulo">El Gallimimus</div>
-        <ul class="detalles-libro">
-        <li>VIII Premio de Literatura Infantil Ciudad de M&aacute;laga</li>
-        <li>Anaya, 2017</li>
-        <li>A partir de 9 a&ntilde;os</li>
-        <li>Ilustrado por Eugenia &Aacute;balos</li>
-        <li>138 p&aacute;gs.</li>
-        <li>Traducido al coreano</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>&ldquo;Nadie ha invitado a Aila a entrar en la casa, pero ah&iacute; est&aacute; en la cocina, frente al plato de perrunillas a&uacute;n tibias. A Carlos le encantan las perrunillas. Quiz&aacute; le gustan tanto porque solo las come cuando viene a Alcamilla. Muerde una con ganas. Aila est&aacute; a punto de hacer lo mismo, pero en el &uacute;ltimo momento aparta la galleta de su boca con un gesto de repugnancia.<br>
-  -&iquest;Por qu&eacute; se llaman perrunillas? &ndash;pregunta recelosa.<br>
-  -Pues... de alguna manera se tienen que llamar, ni&ntilde;a &ndash;responde Hortensia.<br>
-  -&iquest;Tienen carne de perro?<br>
-  -&iexcl;No! &iexcl;Qu&eacute; cosas dices!<br>
-  -&iexcl;Ah! Yo no como perro &iquest;sabes? Ni perro ni cerdo.<br>
-  Se zampa la galleta de un bocado. Despu&eacute;s se come otra, y otra, y otra. Carlos se pone a comer m&aacute;s deprisa para no quedarse atr&aacute;s.<br>
-  -&iexcl;Despacio! &iexcl;Hay que masticar! A ver si os va a dar un entripado.<br>
-  Los entripados. Esa es otra de las cosas que asustan a Hortensia.<br>
-  -&iexcl;Carlitos, hijo! Que luego no te queda sitio para la comida &ndash;le advierte.<br>
-  -&iquest;Cu&aacute;ndo es la comida? &ndash;pregunta Aila.<br>
-  -Falta gratinar los macarrones.<br>
-  -Si quieres me puedo quedar. Si no hay perro ni cerdo.<br>
-  Hortensia mira a Aila arrugando el entrecejo. Abre la boca, seguramente para contarle lo que piensa de las cr&iacute;as descaradas y sin modales. Pero no llega a decirle nada.<br>
-  -&iquest;Y tu qu&eacute; haces con ese bendito tarugo? &ndash;le dice en cambio a Carlos.<br>
-  El chico se da cuenta de que a&uacute;n carga el le&ntilde;o bajo el brazo.<br>
-  -Anda, ll&eacute;valo a la le&ntilde;era, majo. Y ya que est&aacute; aqu&iacute; esta...<br>
-  -Aila.<br>
-  -Ya que est&aacute; Aila, que te ayude con la le&ntilde;a. Y mientras se hace la hora de comer.&rdquo;<br>
-</i><br> &iexcl;Vaya birria de verano! Carlos tiene que pasarlo en Alcamilla, un pueblo aburrido donde todo el mundo es viejo. Menos mal que tropieza con Aila. Aila vive en un autob&uacute;s abandonado y es un fen&oacute;meno trepando &aacute;rboles y
-comiendo perrunillas. Carlos y Aila no tardan en descubrir que hay un animal
-misterioso y escalofriante escondido en el bosque. Mientras, los mayores viven
-preocupados por un peligro muy distinto. De modo que nadie, ni chicos ni grandes,
-est&aacute; tranquilo en Alcamilla.</p> 
-    </div>
-</div>
-
-<div id="parispage" class="popup">
-    <a class="close" href="javascript:void()"><img src="images/close.gif"></a>
-    <div class="top"><img src="images/leer/covers/paris.jpg">
-        <div class="titulo">Un t&iacute;o en Par&iacute;s</div>
-        <ul class="detalles-libro">
-        <li>Edeb&eacute;, Tuc&aacute;n verde</li>
-        <li>A partir de 10 a&ntilde;os</li>
-        <li>Ilustrado por Paloma Bordons</li>
-        <li>215 p&aacute;gs.</li></ul>
-    </div>
-    <div class="bottom">
-        <p>El libro dice&#8230;<br><br><i>
-&ldquo;Manuel cruz&oacute; el umbral tras la mujerona de las cejas pintadas y la sigui&oacute; casi a tientas por una sucesi&oacute;n de escaleras y pasillos apenas iluminados por peque&ntilde;as l&aacute;mparas de pared. Acabaron en una sala igualmente oscura. El chico supuso que se trataba de un dormitorio colectivo. Hab&iacute;a seis literas dispuestas en fila, ocupadas por bultos que parec&iacute;an dormir. La se&ntilde;ora le condujo hasta la &uacute;nica cama libre, le tendi&oacute; un rop&oacute;n blanco y le orden&oacute; con gestos que se acostara. <br>
- -&iquest;No voy a ver a mi t&iacute;o? &ndash;pregunt&oacute; Manuel. <br>
- La mujer se puso un dedo en los labios fruncidos. <br>
- -Tengo un poquito de hambre &ndash;continu&oacute; &eacute;l en un susurro-. Y necesito un cuarto de ba&ntilde;o, hace horas que&#8230;<br>
- -&iexcl;Chist!<br>
- Una andanada de saliva le reg&oacute; la cara. Se protegi&oacute; con las manos y, cuando se destap&oacute;, la Cejas Pintadas hab&iacute;a desaparecido. Se sent&oacute; apesadumbrado en la cama. Nada m&aacute;s hacerlo, el dormitorio cobr&oacute; vida. Todos los bultos saltaron a la vez de sus literas y rodearon a Manuel que, espantado, en un primer momento los tom&oacute; por fantasmas. <br>
- No eran fantasmas, sino ni&ntilde;as vestidas con largos camisones blancos. Aunque casi mejor que hubieran sido fantasmas. &iexcl;Menuda panda de salvajes! Le tocaban, le pellizcaban, le hablaban, posiblemente en franc&eacute;s, se re&iacute;an. Una abri&oacute; la maleta de Manuel y un momento despu&eacute;s toda su ropa volaba por los aires. S&oacute;lo que no era su ropa. Manuel se dio cuenta cuando un vestido estampado aterriz&oacute; sobre su cabeza.<br>
- -&iquest;Sab&eacute;is d&oacute;nde est&aacute; mi t&iacute;o? &iquest;Conoc&eacute;is a mi t&iacute;o Manolo? <br>
- Las chicas le miraron un momento, como intrigadas. Luego se rieron con m&aacute;s ganas y siguieron revolviendo en la maleta. S&oacute;lo pararon cuando una de ellas, que estaba de guardia junto a la puerta, avis&oacute; al resto con gestos fren&eacute;ticos. La Cejas Pintadas se asom&oacute; un instante despu&eacute;s, pero para entonces todas estaban en sus camas arropadas hasta la nariz. La mujer murmur&oacute; entre dientes una amenaza que Manuel se alegr&oacute; de no entender. <br>
- Esta vez, cuando se march&oacute;, s&oacute;lo hubo algunas risitas contenidas. Manuel, por su parte, ten&iacute;a que contener las ganas de llorar. Y tambi&eacute;n otra cosa. Murmur&oacute; con los dientes apretados: <br>
- -&iquest;Alguien me puede decir d&oacute;nde est&aacute; el ba&ntilde;o?<br>
- -La puerta del fondo &ndash;respondi&oacute; una vocecita.<br>
- -&iexcl;Por fin alguien que habla en espa&ntilde;ol! &ndash;suspir&oacute; aliviado-. &iquest;T&uacute; sabes d&oacute;nde est&aacute; mi&#8230;<br>
- -&iexcl;Chist! M&aacute;s vale que te calles.<br>
- -&iquest;Conoces a mi...?<br>
- -Ma&ntilde;ana hablamos &ndash;murmur&oacute; la ni&ntilde;a.<br>
- Manuel no pudo sacarle una palabra m&aacute;s. Bueno, al menos ahora podr&iacute;a hacer pis. Empuj&oacute; la puerta que le hab&iacute;a sido indicada y busc&oacute; a tientas el interruptor de la luz. El fluorescente se encendi&oacute; con un par de chispazos que le cegaron moment&aacute;neamente. Cuando se habitu&oacute; a la luz, vio su imagen reflejada en un espejo. Se llev&oacute; la mano al pelo, horrorizado. Llevaba puesta la diadema de Luisa, con su rid&iacute;culo floripondio de pl&aacute;stico. Se la quit&oacute; de un manotazo, con el rostro arrebolado de verg&uuml;enza. <br>
-Al hacerlo not&oacute; que se le aliviaba ese dolor de cabeza que sent&iacute;a desde hac&iacute;a horas.<br>
-&ldquo;Algo es algo&rdquo;, se dijo. Desde peque&ntilde;ito siempre hab&iacute;a sabido apreciar el lado positivo de las cosas&rdquo;.</i><br>
-<br>
-Manuel viaja a Paris para pasar el verano con su t&iacute;o Manolo, un exitoso pintor. Sin saber por qu&eacute;, acaba atrapado en una siniestra instituci&oacute;n donde nadie entiende su idioma y, para colmo, le toman por una chica. <br>
-Decidido a escapar, tendr&aacute; como aliadas a once de sus nuevas compa&ntilde;eras. Los Doce formar&aacute;n un disparatado grupo de rebeldes y tratar&aacute;n de llegar a casa de t&iacute;o Manolo cruzando Francia y huyendo de sus perseguidores.<br>
-</div>
-</div>
 </div>
