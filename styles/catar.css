@@ -138,7 +138,6 @@ small {
 
 .col2 {
     float:right;
-    padding-top:75px;
 }
 
 #saben img {
@@ -186,8 +185,4 @@ small {
 .none-selected {
     text-align: center;
     color: grey;
-}
-
-#seno h2 {
-    text-align: center;
 }

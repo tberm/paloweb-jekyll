@@ -6,7 +6,7 @@
     margin:10px 20% 70px;
     border-bottom-style:solid;
     border-bottom-width:1px;
-    border-bottom-color:grey;
+    border-bottom-color: rgb(108, 167, 201);
     overflow: hidden;
 }
 
@@ -27,9 +27,10 @@
 .story-title {
     font-size: 2em;
     font-weight: 600;
+    margin-bottom: 0;
     border-bottom-style:solid;
     border-bottom-width:1px;
-    border-bottom-color:grey;
+    border-bottom-color:rgb(108, 167, 201);
 }
 
 .story-date {
