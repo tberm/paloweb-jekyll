@@ -1,71 +1,66 @@
-#wrapper {
-    margin: 50px auto;
-    width: 745px;
+#page {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  height: 90vh;
+  padding: 5vh 5vw;
 }
 
-#top {
-    height: 271px;
-}
-
-#mirar, #contacto, #vida, #leer, #prensa, #contacto {
-    min-width: 100px;
-    border-style: none;
-}
-
-#mirar, #contacto, #vida, #leer, #prensa {
-    float: left;
-}
-
-#mirar, #contacto {
-    padding-right: 8px;
-}
-
-#leer, #catar {
-    padding-left: 12px;
-}    
-
-#vida img {
-    margin-top: 5px;
-    
-}
-
-a.grow img {
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s;
-    -webkit-backface-visibility:hidden;
-}
-
-a.grow img:hover {
-    /*width: 102%;*/
-    -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    transform: scale(1.02);
-    -webkit-backface-visibility:hidden;
-
-}
-
-#firma {
-    height: 120px;
+.col {
+  display: flex;
+  flex-direction: column;
+  /* border: solid blue; */
+  align-items: center;
+  justify-content: center;
 }
 
 #firma img {
-    position: relative;
-    width: 550px;
-    margin-left: -50px;
-    z-index: -1;
+  width: 42vw;
 }
 
-#leer {
-    position: relative;
-    top: -12px;
+.block {
+  width: 100px;
+  height: 100px;
 }
 
-#bottom_left, #bottom_right {
-    float: left;
+.tile {
+    width: 25vw;
+    min-height: 0;  /* needed for firefox to do proper shrinking for some reason */
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
 }
 
-a.grow img {
+#left .tile {
+    text-align: right;
+}
+
+#left .img-wrapper {
+    align-items: right;
+}
+
+#right .tile {
+    text-align: left;
+}
+
+#left .img-wrapper {
+    align-items: left;
+}
+
+#middle .tile {
+    text-align: center;
+}
+
+.tile img, .tile .label {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+
     -moz-animation-name: fadein;
     -moz-animation-iteration-count: 1;
     -moz-animation-timing-function: ease-out;
@@ -112,50 +107,78 @@ a.grow img {
     }
 }
 
-#contacto img {
+#contacto img, #contacto .label {
     -moz-animation-delay: 0.1s;
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.1s; 
 }
 
-#catar img {
+#vida img, #vida .label {
     -moz-animation-delay: 0.4s;
     -webkit-animation-delay: 0.4s;
     animation-delay: 0.4s;
 }
 
-#prensa img {
+#catar img, #catar .label {
     -moz-animation-delay: 0.6s;
     -webkit-animation-delay: 0.6s;
     animation-delay: 0.6s; 
 }
 
-#vida img {
+#mirar img, #mirar .label {
     -moz-animation-delay: 0.9s;
     -webkit-animation-delay: 0.9s;
     animation-delay: 0.9s;
 }
 
-#mirar img {
+#leer img, #leer .label {
     -moz-animation-delay: 1.1s;
     -webkit-animation-delay: 1.1s;
     animation-delay: 1.1s;
 }
 
-#leer img {
+#prensa img, #prensa .label {
     -moz-animation-delay: 1.2s;
     -webkit-animation-delay: 1.2s;
     animation-delay: 1.2s;
 }
 
-a.grow {
-    -webkit-backface-visibility:hidden;
+.tile:hover img {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    transform: scale(1.02);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
-#creado {
-    display:block;
-    position:fixed;
-    right:5px;
-    bottom:5px;
-    color:silver;
+.label {
+    font-size: 2em;
+    padding: 0 10%;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.tile:hover .label {
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    transform: translateY(2px);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+#left .tile, #left .label {
+    float: right;
+}
+
+#mirar-label {
+    position: relative;
+    bottom: 10%;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
