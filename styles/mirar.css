@@ -1,186 +1,23 @@
-#mirar {
-    top:-5px;
+/* Some modifications to the column layout styles that I wrote for vida page and
+ * then moved to base.css */
+
+.col--text.col--50, .col--images.col--50 {
+    width: 50%;
 }
 
-#conjunto {
-    width: 760px;
-    height: 716px;
-    margin: 0 auto;
-    background: url(/images/mirar/montaje2.gif);
-    background-size: 760px 716px;
-    text-size:0.9em;
+.single-col-margins .col-container {
+    justify-content: start;
 }
 
-.foto {
-    float: left;
-    width: 200px;
-    height: 330px;
-    margin: 10px 10px 30px 10px;
-    position: relative;
-}
-
-#pizarra {
-    margin-right: 0px;
-}
-
-#pizarra {
-    width: 500px;
-}
-
-#publikum {
-    width:269px;
-}
-
-#estudio {
-    width: 300px;
-}
-
-.frame {
-    overflow: hidden;
+#retrato {
+    width: 50%;
     margin: 0 auto;
 }
 
-.frame img {
-    position: relative;
-}
-
-#peque .frame {
-    width: 175px;
-    height: 260px;
-}
-
-#now .frame {
-    width: 182px;
-    height: 273px;
-}
-
-#estudio .frame {
-    width: 258px;
-    height: 185px;
-}
-
-#premio .frame {
-    width: 188px;
-    height: 305px;
-}
-
-#pizarra .frame {
-    width: 240px;
-    height: 237px;
-}
-
-#pizarra #left {
-    float:left;
-}
-
-#pizarra #right {
-    float:right;
-}
-
-#publikum .frame {
-    width: 269px;
-    height:139px;
-}
-
-.foto p {
-    text-align: center;
-    background-color: rgba(165, 176, 198, 1);
-    color: black;
-    -webkit-transition: background-color 0.2s;
-    -moz-transition: background-color 0.2s;
-    -o-transition: background-color 0.2s;
-    transition: background-color 0.2s;
-}
-
-#pizarra p {
-    text-align: left;
-    width: 240px;
-    right: 0;
-    top: 110px;
-    position: absolute;
-}
-
-#premio p {
-    position: absolute;
-    left: 220px;
-    width: 210px;
-    margin: 0;
-    bottom: 5px;
-}
-
-.frame:hover ~ p {
-    background-color: rgba(183, 193, 214, 1);    
-}
-
-#lectores {
+.image-container {
     text-align: center;
 }
 
-.fanframe {
-    display:inline-block;
-    border-style: solid;
-    border-color: rgb(87, 87, 136);
-    border-width: 8px;
-    margin: 5px;
-}
-
-.fanframe img {
-    display:block;
-    opacity: 1;
-    -webkit-transition: opacity 0.1s ease-out;
-    -moz-transition: opacity 0.1s ease-out;
-    -o-transition: opacity 0.1s ease-out;
-    transition: opacity 0.1s ease-out;
-}
-
-.fanframe:hover img {
-    opacity: 0.8;
-}
-
-.popup {
-    display:none;
-    overflow: auto;
-    opacity: 1;
-    box-shadow: 2px 2px 1px;
-    border: 1px solid grey;
-    background-color: whitesmoke;
-    border-radius: 2px;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 0.9em;
-    -webkit-transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    transition: opacity 0.2s;
-    vertical-align:middle;
-}
-
-#pictureframe:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    margin-right: -0.25em;  
-}
-
-#pictureframe {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index:150;
-    text-align:center;
-    font-size:0;
-    display:none;
-}
-
-#overlay {
-    position: fixed;
-    height:100%;
-    width:100%;
-    opacity:0;
-    z-index:-10;
-    background-color:rgb(77, 77, 104);
-}
-
-#lectoresintro {
-    margin: 50px 70px 30px;
+.inline-image {
+    width: 75%;
 }
