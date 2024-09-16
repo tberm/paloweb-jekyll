@@ -122,3 +122,14 @@ footer {
     margin: 0;
     top: -2.5rem;
 }
+
+/* This is a Bad Thing but unfortunately CSS perspective in Firefox seems to be cursed and cannot be reasoned with, so no parallax for it */
+@-moz-document url-prefix() {
+    .parallax-window {
+      perspective: 0 !important;
+    }
+
+    .parallax-far {
+        transform: translateZ(0) !important;
+    }
+}
