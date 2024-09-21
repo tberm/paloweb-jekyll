@@ -115,14 +115,18 @@
 
 .popup ul {
 	list-style:none;
-	line-height:1.5em;
 }
 
-.popup i {
+.excerpt {
 	position:relative;
 	left:20px;
-	font-size: 1.1em;
 	color: rgb(75, 70, 70);
+	text-indent: 1.5rem;
+}
+
+.excerpt p {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 cite {
@@ -211,31 +215,26 @@ cite {
 li {
 	list-style-type: none;
 	margin-left: 20px;
-	line-height: 2.5em;
+	line-height: 2.5rem;
 }
 
 .u {
-	text-decoration:underline;
+	text-decoration: underline;
 }
 	
 
 .titulo {
-	text-align:center;
-	font-weight:600;
-    font-size:1.2em;
-	margin-bottom:10px;
-	line-height:1em;
-	height:2em;
-	position:relative;
+	text-align: center;
+	font-weight: 600;
+    font-size: 2rem;
+	margin-bottom: 10px;
+	height: 2.5rem;
+	position: relative;
 }
 
 .popup .titulo {
     text-align: left;
     font-style: italic;
-}
-
-.detalles-libro {
-    font-size: 0.9em;
 }
 
 .align {
