@@ -79,6 +79,7 @@
 
 .popup {
 	width: 80vw;
+	max-width: 60rem;
 	height: 80vh;
 	position: fixed;
 	overflow-y: auto;
