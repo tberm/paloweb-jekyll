@@ -92,11 +92,6 @@ small {
     font-style:italic;
 }
 
-#tubu {
-    font-size:1em;
-    line-height:1.2em;
-}
-
 .inpiece {
     display: inline-block;
     text-align: left;
@@ -107,23 +102,6 @@ small {
     position: relative;
     left: 70px;
     float:right;
-}
-
-#tubupage {
-    display:block;
-    margin: 0 auto;
-    width:60%;
-    margin-bottom: 50px;
-}
-
-#tubupage .sub {
-    font-size: 0.8em;
-    margin-bottom: 1.5em;
-    display:block;
-}
-#tubupage p {
-    margin:0;
-    text-indent:30px;
 }
 
 #medico p {
@@ -138,17 +116,6 @@ small {
 
 .col2 {
     float:right;
-}
-
-#saben img {
-    float:left;
-    margin-right:50px;
-    margin-top:100px;
-}
-
-#secreto img {
-    display:block;
-    margin-top:100px;
 }
 
 .stanza {
