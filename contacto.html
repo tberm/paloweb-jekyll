@@ -5,6 +5,7 @@ keywords: ['contacto', 'email', 'comentarios', 'mensaje']
 description: Contacta con la autora de libros infantiles y juveniles Paloma Bordons
 stylesheet: contacto.css
 title: Contacto
+js_file: contacto.js
 ---
 
 <div class="page">
@@ -13,8 +14,8 @@ title: Contacto
         <p>Si quieres decirme algo, hazlo aqu&iacute;. Prometo
         contestar. (Y casi siempre cumplo mis promesas.)</p>
 
-        <form class="form" name="contact" method="POST" data-netlify="true"
-              netlify-honeypot="message"
+        <form class="form" id="contact-form" name="contact" method="POST"
+              data-netlify="true" netlify-honeypot="message"
         >
             <div class="form__field sm-100 md-50">
                 <label class="form__label">Tu nombre</label>
@@ -34,6 +35,13 @@ title: Contacto
             </div>
             <div class="form__button-row">
                 <button class="form__button" type="submit">Enviar</button>
+            </div>
+
+            <div class="submitted-form__message submitted-form__message--ok sm-100">
+                &iexcl;Mensaje enviado!
+            </div>
+            <div class="submitted-form__message submitted-form__message--error sm-100">
+                Ha habido un error al enviar el mensaje. Int&eacute;ntalo m&aacute;s tarde.
             </div>
         </form>
     </div>

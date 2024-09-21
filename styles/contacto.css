@@ -75,6 +75,22 @@ textarea.form__input {
     border: 2px solid rgb(44, 91, 117);
 }
 
+.submitted-form__message {
+    display: none;
+}
+
+.submitted-form--ok .submitted-form__message--ok {
+    display: block;
+}
+
+.submitted-form--error .submitted-form__message--error {
+    display: block;
+}
+
+.submitted-form .form__field, .submitted-form .form__button-row {
+    display: none;
+}
+
 /* fixes input and textarea elements having different apparent widths
  * https://stackoverflow.com/questions/24561037/textarea-and-input-have-different-widths */
 textarea, input {
