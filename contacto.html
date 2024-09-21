@@ -10,8 +10,25 @@ title: Contacto
 <div class="page">
     <h2>Contacto</h2>
     <div class="single-col-margins">
-        <p>Si quieres decirme algo, env&iacute;a un mensaje a <a
-        href='mailto:paloma@palomabordons.com'>paloma@palomabordons.com</a>. Prometo
+        <p>Si quieres decirme algo, hazlo aqu&iacute;. Prometo
         contestar. (Y casi siempre cumplo mis promesas.)</p>
+
+        <form class="form" name="contact" method="POST" data-netlify="true">
+            <div class="form__field sm-100 md-50">
+                <label class="form__label">Tu nombre</label>
+                <input class="form__input" type="text" name="name" />
+            </div>
+            <div class="form__field sm-100 md-50">
+                <label class="form__label">Tu direcci&oacute;n email</label>
+                <input class="form__input" type="email" name="email" />
+            </div>
+            <div class="form__field sm-100 md-100">
+                <label class="form__label">Tu mensaje</label>
+                <textarea class="form__input" type="text" name="message"></textarea>
+            </div>
+            <div class="form__button-row">
+                <button class="form__button" type="submit">Enviar</button>
+            </div>
+        </form>
     </div>
 </div>
