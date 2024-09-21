@@ -13,10 +13,12 @@ title: Contacto
         <p>Si quieres decirme algo, hazlo aqu&iacute;. Prometo
         contestar. (Y casi siempre cumplo mis promesas.)</p>
 
-        <form class="form" name="contact" method="POST" data-netlify="true">
+        <form class="form" name="contact" method="POST" data-netlify="true"
+              netlify-honeypot="message"
+        >
             <div class="form__field sm-100 md-50">
                 <label class="form__label">Tu nombre</label>
-                <input class="form__input" type="text" name="name" />
+                <input class="form__input" type="text" name="nombre" />
             </div>
             <div class="form__field sm-100 md-50">
                 <label class="form__label">Tu direcci&oacute;n email</label>
@@ -24,7 +26,11 @@ title: Contacto
             </div>
             <div class="form__field sm-100 md-100">
                 <label class="form__label">Tu mensaje</label>
-                <textarea class="form__input" type="text" name="message"></textarea>
+                <textarea class="form__input" type="text" name="mensaje"></textarea>
+            </div>
+            <div class="form__field sm-0">
+                <label class="form__label">Your message</label>
+                <input class="form__input" type="text" name="message" />
             </div>
             <div class="form__button-row">
                 <button class="form__button" type="submit">Enviar</button>

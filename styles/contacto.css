@@ -19,6 +19,12 @@
     width: 100%;
 }
 
+/* this is for a spam prevention honeypot field
+ * https://docs.netlify.com/forms/spam-filters/#honeypot-field */
+.sm-0 {
+    display: none;
+}
+
 @media (min-width: 1200px) {
     .md-50 {
         width: 45%;
