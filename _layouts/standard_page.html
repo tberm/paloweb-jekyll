@@ -9,22 +9,40 @@ layout: global
     <a class="firma" href="index.html"><img alt="Paloma Bordons" src="images/nav/firma.gif"></a>
     </h1>
     <div class="links">
-        <a class="nav" id="contacto" href="contacto.html">
+        <a
+            class="nav {% if page.name == 'contacto.html' %}active{% endif %}"
+            id="contacto" href="contacto.html"
+        >
             <img alt="Contacto" src="images/nav/contacto.gif">
         </a>
-        <a class="nav" id="leer" href="leer.html">
+        <a 
+            class="nav {% if page.name == 'leer.html' %}active{% endif %}"
+            id="leer" href="leer.html"
+        >
             <img alt="Para leer" src="images/nav/leer.gif">
         </a>
-        <a class="nav" id="vida" href="vida.html">
+        <a
+            class="nav {% if page.name == 'vida.html' %}active{% endif %}"
+            id="vida" href="vida.html"
+        >
             <img alt="Sobre m&iacute;" src="images/nav/vida.gif">
         </a>
-        <a class="nav" id="prensa" href="prensa.html">
+        <a
+            class="nav {% if page.name == 'prensa.html' %}active{% endif %}"
+            id="prensa" href="prensa.html"
+        >
             <img alt="Prensa y novedades" src="images/nav/prensa.gif">
         </a>
-        <a class="nav" id="mirar" href="mirar.html">
+        <a
+            class="nav {% if page.name == 'mirar.html' %}active{% endif %}"
+            id="mirar" href="mirar.html"
+        >
             <img alt="Para mirar" src="images/nav/mirar.gif">
         </a>
-        <a class="nav" id="catar" href="catar.html">
+        <a
+            class="nav {% if page.name == 'catar.html' %}active{% endif %}"
+            id="catar" href="catar.html"
+        >
             <img alt="Para catar" src="images/nav/catar.gif">
         </a>
     </div>
@@ -39,7 +57,8 @@ layout: global
             {{ content }}
 
             <footer class="footer">
-                <p class="centeralign">Ilustraciones y texto de Paloma Bordons </p>
+                <p class="centeralign">&copy; Ilustraciones y texto de Paloma Bordons </p>
+            </footer>
         </div>
     </div>
 

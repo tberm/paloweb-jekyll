@@ -62,6 +62,10 @@ a.nav img {
 	width:290px;
 }
 
+a.nav.active {
+	top:-5px;
+}
+
 a.nav:hover {
 	top:-5px;	
 }
