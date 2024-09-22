@@ -70,12 +70,12 @@ h3 {
 }
 
 .page {
-    background: #fbfcfc;
+    background: #ffffff;
     border-radius: 8px;
     position: relative;
     width: 70%;
     min-width: 1050px;
-    border: 10px solid #fbfcfc;
+    border: 10px solid #ffffff;
     min-height: auto;
     margin: 100px auto 0;
 }
