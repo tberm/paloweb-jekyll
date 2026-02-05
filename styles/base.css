@@ -92,6 +92,13 @@ footer {
     position: relative;
 }
 
+.full-width-image {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
 /* Multi-column layouts */
 
 .col-container {
